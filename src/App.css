@@ -1,6 +1,8 @@
 *{
   margin: 0px; 
 }
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display'); 
+
 .top-bar{
   background-color: black; 
   display: flex; 
