@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Router, BrowserRouter} from 'react-router-dom';
+import { Route, Switch, Router, BrowserRouter, HashRouter} from 'react-router-dom';
 import './App.css'; 
 import Header from './components/Header/Header'; 
 import Footer from './components/Footer/Footer';
@@ -21,12 +21,12 @@ function AppRouter() {
     <div>
       <BrowserRouter>
       <Header/>
-      
+      <Switch>
         <Route path='/' exact component={About} />
         <Route path='/prospectives' component={Prospectives} />
         <Route path='/board' component={Board} />
         <Route path='/programs' component={Programs} />
-      
+      </Switch>
       <Footer/>
       </BrowserRouter> 
     </div>
