@@ -1,0 +1,32 @@
+*{
+    margin: 0px; 
+}
+.top-bar{
+    background-color: black; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-family: 'Playfair Display', monospace;
+
+}
+.top-rssla{
+    color: #F2FAFF; 
+    font-size: 48px; 
+    padding: 10px; 
+    font-weight: 400; 
+}
+.menu{
+    display: flex; 
+    flex-direction: row; 
+    color: #F2FAFF; 
+    width: 60%; 
+    justify-content: space-around; 
+    font-size: 18px; 
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.menu-item:hover{
+    color:white; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
