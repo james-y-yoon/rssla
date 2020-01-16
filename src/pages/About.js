@@ -20,7 +20,7 @@ function About() {
           <div class='body-1-title'>
               <div class='body-1-rssla'><strong>RSSLA</strong></div>
               <div class='body-1-rssla-text'>
-                          <em>Regents Scholar Society at UCLA</em>
+                          <em>HI Regents Scholar Society at UCLA</em>
                       <br/><br/>
                       <hr/>
               </div>
