@@ -7,7 +7,6 @@
     flex-direction: row; 
     justify-content: space-between; 
     font-family: 'Playfair Display', monospace;
-
 }
 .top-rssla{
     color: #F2FAFF; 
@@ -24,6 +23,7 @@
     font-size: 18px; 
     margin-top: auto;
     margin-bottom: auto; 
+    font-family: 'Source Sans Pro', monospace;
 }
 .menu-item:hover{
     color:white; 
