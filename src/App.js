@@ -47,13 +47,13 @@ function App() {
           </div>
           <div class='body-2-text-2-wrap' align='right'>
               <div class='body-2-text-2'>
-                  The Regents Scholarship is offered to the top 1.5% of applicants, judged holistically. 
-                  Our organization is one of few on the UCLA campus to unite students of all disciplines and backgrounds 
-                  - we're diverse in our pursuits, passions, and identities. 
-                  We go on to become doctors, lawyers, corporate executives, entrepreneurs, and more. 
-                  <br/><br/>
-                  16 board members run the organization and lead our programs 
-                  - from our social gatherings to our mentorship program partnership with a local high school.
+              The Regents Scholar Society is composed of students with different identities, interests, and passions. 
+              Whether north campus or south campus, pre-med or business, scientists or artists,  
+              the society transcends these divisions through our shared commitment to scholarship, leadership, and service.
+              <br/><br/>
+              We strive to support our members and the local community through our various internal and external programs, 
+              including service events, leadership opportunities, and the Los Angeles Mentorship Program.
+
               </div>
           </div>
       </div>
@@ -75,21 +75,19 @@ function App() {
                   <div class='pillar-text-2'><em>Members of the Regents Scholar Society exemplify academic excellence, both in and out of the classroom.  </em></div>
               </div>
               <div class='pillar'>
-                  <div class='pillar-text-1'>For our network,</div>
-                  <div class='pillar-text-2'><em>we connect.</em></div>
-                  <div class='pillar-text-3'>We offer alumni and faculty mentorship for our current members to build relationships. </div>
+                  <div class='pillar-text-1'>Service</div>
+                  <div class='pillar-text-2'><em>The Regents Scholar Society dedicates itself to improving the local community. We participate in beach clean-ups, tutoring through the Los Angeles Mentorship Program, and outreach. </em></div>
               </div>
               <div class='pillar'>
-                  <div class='pillar-text-1'>For our members,</div>
-                  <div class='pillar-text-2'><em>we support.</em></div>
-                  <div class='pillar-text-3'>We offer peer mentorship, educational resources, professional development, and a social network.</div>
+                  <div class='pillar-text-1'>Leadership</div>
+                  <div class='pillar-text-2'><em>Members of the Regents Scholar Society work as driven leaders, both within campus organizations and in the local, state, and national  community.</em></div>
               </div>
           </div>
           </div>
       </div>
       {/* <!-- SPONSORS --> */}
       <div class='sponsors'>
-          <div class='sponsors-title'>SPONSORS</div>
+          <div class='sponsors-title'><strong>SPONSORS</strong></div>
           <div class='sponsor-1-wrap'>
               <div class='sponsor-1'>Blueprint</div>
           </div>
