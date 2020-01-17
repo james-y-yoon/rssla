@@ -1,0 +1,35 @@
+#LAMP 
+{
+    position: absolute;
+    width: 1110px;
+    height: 673px;
+
+    background: #D9E9FF;
+
+    top: 756px;
+    right: 287px;
+    left: 66px;
+} 
+
+#title
+{
+    position: absolute;
+    width: 910px;
+    height: 55px;
+
+    /* Heading 1 */
+
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+
+    /* dark blue */
+
+    color: #3C507B;
+
+    top: 67px;
+    right: 161px;
+    left: 39px;
+}
