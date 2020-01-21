@@ -1,10 +1,19 @@
-import React from 'react'; 
+import React from 'react';
+import Header from '../components/Header/Header';  
 import './Programs.css'; 
 
 function Programs(){
     return(
-        <div>
-            PROGRAMS
+        <div className="Programs">
+            
+            <div class='what-do-we-do'>
+                <div class='what-do-we-do-title'>WHAT DO WE DO?</div>
+                <div class='what-do-we-do-body'>
+                The Regents Scholar Society hosts multiple events through the year. 
+                Some connect our members to resources, while others strive to engage the broader UCLA and local community.
+                </div>
+
+            </div>
         </div>
     ); 
 }
