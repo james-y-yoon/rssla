@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display'); 
+
+* {
+    margin: 0px; 
+}
+
+.prospectives {
+    overflow: hidden;
+}
+
+.prospectives2 {
+    display: flex;
+}
+
+.body-1-prospectives {
+    /* background-color: #F2FAFF;  */
+    padding: 20px; 
+    padding-top: 100px; 
+    padding-bottom: 250px; 
+    background-color: rgba(0,0,0,0.7); 
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7), 
+        rgba(0,0,0,0.7)
+      ), url("https://s3-alpha-sig.figma.com/img/36f4/283f/5b2017c194eb2e6009c1689d734cae4d?Expires=1580083200&Signature=Yhearw2fzGWotzi7pEvRf8HS3-KficuItRYom4OVELC-wS-SGE5IdqEiG6i13TFk4Wkvi8t3gXJLJMfs9DfJelKpopZotTkiXcofzcr4a9d~PppQlTg0Wz3f6P0EXGwCWZ3nvNg6NTW6zwF0GVJxAUc5bXrwWPwYRW~6uhH1QUgCgSE2E8hYAlzZjfBQ-kfURgr7dVz4WTx5e5J0tA-6g1iKgNsmnMg1mWp9rXqeijwDBF4IAs6YKVMkjIeXYCKGYr0-kkYdkrKnvjmuzBjfcrRpAGCAC-eyjfSyQmE2T~EYHispDe8rUazOXIkZWmXPvt3nKIHBJLyMWeHurHQLsg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: cover;  
+}
+
+.body-1-prospectives-text {
+    border-left: 1px solid white; 
+    color: white;
+    padding-left: 1%;
+    width: 80%; 
+    margin: auto;
+    font-size: 24px;
+    margin-left: 10%;
+    /* margin: 20px; */
+    /* text-align: left; 
+    width: 80%; 
+     
+    padding-left: 30px;  
+    margin: 20px;  
+    margin-left: 13%;  */
+}
+
+.body-2-prospectives {
+    /* width: 986px;
+    height: 132px;
+    left: 100px;
+    top: 575px; */
+    width: 60%; 
+    align-items: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    margin: auto;
+
+    margin-bottom: 50px;
+    margin-left: 10%;
+}
+
+.body-3-prospectives {
+    /* width: 891px;
+    height: 221px;
+    left: 126px;
+    top: 761px; */
+    width: 60%; 
+    align-items: left;
+    /* width: 80%; 
+    align-items: center; */
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 20px; 
+
+    /* text-align: center;  */
+    background-color: #D9E9FF; 
+    /* margin: auto; */
+    margin-left: 10%;
+}
+
+.body-3-prospectives-text {
+    margin: 15px; 
+    padding: 25px; 
+}
+
+.capital-heading {
+    font-size: 55px;
+    color: navy;
+    font-style: normal;
+    margin: 15px; 
+    padding: 50px; 
+    font-family: Overpass Mono;
+}
+
+table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+
+td.vertical-line {
+    border-right: solid 1px black; 
+    /* border-left: solid 1px #f00; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.table-prospectives {
+    font-style: normal;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    margin: 15px; 
+    padding: 25px; 
+}
+
+.button-wrap {
+    text-align: center; 
+    font-family: Overpass Mono;
+    font-style: SemiBold;
+}
+
+.left-padding {
+    padding-left: 15%;
+    /* padding-right: 15%; */
+    /* margin-left: 100px; */
+}
+
+.button-1 {
+    font-family: 'Overpass Mono', sans-serif;
+    background-color: #3C4856; 
+    border-radius: 10px; 
+    border: 1px solid #000000;
+    font-size: 16px; 
+    padding-left: 13px; 
+    padding-right: 13px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.button-1:hover {
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.vertical-body {
+    /* position: absolute; */
+    width: 1000px;
+    height: 500px; 
+    /* left: 1405px;
+    top: 575px; */
+    padding-left: 100px;
+
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 98px;
+
+    color: #6C7888;
+    transform: rotate(90deg);
+    transform-origin: top left;
+
+    /* text-align: center; */
+
+    /* margin-right: 10%; */
+    /* position: relative; */
+}
+
+.wrap1 {
+    flex: 1;
+}
+
+.wrap2 {
+    width: 10%;
+}
+
+/* .vertical-body {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+} */
