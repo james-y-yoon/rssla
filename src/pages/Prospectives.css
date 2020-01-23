@@ -12,6 +12,24 @@
     display: flex;
 }
 
+.prospectives3 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.prospectives4 {
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+
+.wrap1 {
+    flex: 1;
+}
+
+.wrap2 {
+    width: 10%;
+}
+
 .body-1-prospectives {
     /* background-color: #F2FAFF;  */
     padding: 20px; 
@@ -33,20 +51,9 @@
     margin: auto;
     font-size: 24px;
     margin-left: 10%;
-    /* margin: 20px; */
-    /* text-align: left; 
-    width: 80%; 
-     
-    padding-left: 30px;  
-    margin: 20px;  
-    margin-left: 13%;  */
 }
 
 .body-2-prospectives {
-    /* width: 986px;
-    height: 132px;
-    left: 100px;
-    top: 575px; */
     width: 60%; 
     align-items: center;
     font-family: Source Sans Pro;
@@ -58,18 +65,11 @@
     margin: auto;
 
     margin-bottom: 50px;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .body-3-prospectives {
-    /* width: 891px;
-    height: 221px;
-    left: 126px;
-    top: 761px; */
-    width: 60%; 
-    align-items: left;
-    /* width: 80%; 
-    align-items: center; */
+    width: 60%;
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;
@@ -77,13 +77,11 @@
     line-height: 30px;
     padding: 20px; 
 
-    /* text-align: center;  */
     background-color: #D9E9FF; 
-    /* margin: auto; */
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
-.body-3-prospectives-text {
+.blue-padding {
     margin: 15px; 
     padding: 25px; 
 }
@@ -106,7 +104,6 @@ table {
 
 td.vertical-line {
     border-right: solid 1px black; 
-    /* border-left: solid 1px #f00; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -127,8 +124,6 @@ td.vertical-line {
 
 .left-padding {
     padding-left: 15%;
-    /* padding-right: 15%; */
-    /* margin-left: 100px; */
 }
 
 .button-1 {
@@ -152,11 +147,8 @@ td.vertical-line {
 }
 
 .vertical-body {
-    /* position: absolute; */
     width: 1000px;
     height: 500px; 
-    /* left: 1405px;
-    top: 575px; */
     padding-left: 100px;
 
     font-family: Overpass Mono;
@@ -168,22 +160,232 @@ td.vertical-line {
     color: #6C7888;
     transform: rotate(90deg);
     transform-origin: top left;
-
-    /* text-align: center; */
-
-    /* margin-right: 10%; */
-    /* position: relative; */
 }
 
-.wrap1 {
-    flex: 1;
+.vertical-body2 {
+    /* position: absolute; */
+    width: 1000px;
+    height: 500px; 
+    /* left: 1405px;
+    top: 575px; */
+    padding-right: 100px;
+
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 98px;
+
+    color: #6C7888;
+    transform: rotate(-90deg) translate(0%, -185%);
+    transform-origin: top right;
 }
 
-.wrap2 {
-    width: 10%;
+.body-2-prospectives2 {
+    width: 60%; 
+    align-items: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    margin: auto;
+
+    margin-bottom: 50px;
+    margin-right: 12%;
 }
 
-/* .vertical-body {
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-} */
+.body-3-prospectives2 {
+    width: 60%;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 20px; 
+
+    background-color: #D9E9FF; 
+
+    margin: auto;
+
+    margin-right: 12%;
+}
+
+.capital-heading2 {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 98px;
+    text-align: left;
+    
+    color: #000000;
+    
+    width: 80%;
+    margin-left: 10%;
+}
+
+.capital-heading3 {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: center;
+
+    float: left;
+    clear: both;
+
+    width: 80%;
+    margin: 3%;
+    margin-left: 10%;
+
+    color: #000000;
+
+    border-bottom: 1px solid black;
+}
+
+.wrap4 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    width: 80%;
+    margin-left: 10%;
+
+    color: #000000;
+}
+
+.wrap5 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    width: 80%;
+    margin-left: 10%;
+
+    color: #000000;
+
+    display: flex;
+}
+
+.group1 {
+    margin-right: 3%;
+}
+
+.group2 {
+    margin-left: 3%;
+}
+
+.capital-heading4 {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: center;
+
+    color: #000000;
+
+    border-bottom: 1px solid black;
+}
+
+.m-p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.gua {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* text-align: right; */
+
+    color: #000000;
+}
+
+.gua > ul {
+    text-align: right;
+    list-style-position: inside;
+}
+
+.body-3-prospectives3 {
+    width: 60%;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 20px; 
+
+    background-color: #D9E9FF; 
+
+    margin: auto;
+    margin-top: 5%;
+
+    width: 80%;
+}
+
+.faq-header {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: right;
+
+    color: #000000;
+
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+.faq-q {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+
+    color: #3C507B;
+
+    border-bottom: 1px #3C507B solid;
+    padding: 2%;
+    padding-top: 3%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.faq-a {
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+    padding: 1.5%;
+    padding-left: 10%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.black-text {
+    color: black;
+}
