@@ -2,7 +2,7 @@
     margin: 0px; 
   }
   @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Source+Sans+Pro'); 
-  
+
   .top-bar{
     background-color: black; 
     display: flex; 
@@ -41,7 +41,7 @@
     background-image: linear-gradient(
         rgba(0,0,0,0.7), 
         rgba(0,0,0,0.7)
-      ), url("http://rssla.org/img/banner-bg1.jpg");
+      ), url('/pictures/2018_InterUC_2.HEIC');
     background-size: cover;  
   }
   .body-1-title{
@@ -94,25 +94,25 @@
   }
   .body-2{
     padding: 20px; 
-    margin-top: 50px; 
-    margin-bottom: 50px; 
+    margin-top: 150px; 
+    margin-bottom: 150px; 
   }
   
   .body-2-title{
     font-family: 'Overpass Mono', monospace;
     font-size: 4.5vw; 
-    text-align: center; 
-    width: 45%;
+    text-align: left; 
+    width: 50%;
     color: #3C507B; 
     margin-left: 8vw; 
   }
   .body-2-text-1{
     font-size: 1.8vw; 
     font-family: 'Libre Baskerville', serif;    
-    width: 80%; 
+    width: 100%; 
     padding: 20px; 
     margin: 20px; 
-    border-left: 1px solid black; 
+    border-left: 2px solid black; 
   }
   .body-2-text-2-wrap{
     width: 93%; 
@@ -120,32 +120,38 @@
   .body-2-text-2{
     font-size: 1.8vw; 
     font-family: 'Source Sans Pro', serif;   
-    border-left: 1px solid black; 
+    border-left: 0.5px solid black; 
     text-align: left; 
     width: 80%; 
-    padding: 20px; 
-    padding-left: 30px;  
+    padding: 5%;  
     margin: 20px;  
-    margin-left: 13%; 
+    margin-left: 20px; 
     color: #0B3C5D; 
   }
   .img-row{
     display: flex; 
     flex-direction: row; 
-    justify-items: auto; 
+    justify-content: auto;
+  }
+
+  .img-column{
+    flex: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
   }
   
   .img-1{
-    width: 30%; 
+    width: 80%; 
     height: auto; 
-    border-right: 1px solid black; 
-    padding: 10px; 
-    padding-right: 15px; 
+    border: 0.5px solid black;
+    margin: 10%;
   }
   .img-2{
-    width: 30%; 
-    padding: 10px; 
+    width: 80%; 
     height: auto; 
+    margin: 10%;
+    border: 0.5px solid black;
   }
   
   .body-3{
@@ -193,31 +199,25 @@
     padding: 20px; 
   }
   
-  .sponsors{
-    margin-top: 50px; 
-    margin-bottom: 50px; 
-    padding: 20px; 
+  .sponsors{ 
+    margin-bottom: 20%; 
+    padding-bottom: 5%;
   }
   .sponsors-title{
     width: 30%; 
     font-size: 4.5vw; 
-    text-align: left; 
+    color: #3C507B;
+    text-align: center; 
     font-family: 'Overpass Mono', monospace;
     margin-left: 8vw; 
+    margin-bottom: 10%
   }
-  .sponsor-1-wrap{
-    border-left: 1px solid black; 
-    margin-left: 15%; 
-    padding-left: 8%; 
-  }
-  .sponsor-1{
-    background-color: #C4C4C4; 
-    width: 50%; 
-    font-size: 24px; 
-    color: #009AFA; 
-    padding: 20px; 
-    margin: 20px; 
-    font-family: 'Overpass Mono', monospace;
-    text-align: center; 
-  }
+  .img-sponsor-1{
+    width: 20%; 
+    height: auto; 
+    padding: 5%;
+    border: 0.5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    }
   

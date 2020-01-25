@@ -19,6 +19,7 @@
 }
 .menu{
   display: flex; 
+  font-weight: bold;
   flex-direction: row; 
   color: #F2FAFF; 
   width: 60%; 
