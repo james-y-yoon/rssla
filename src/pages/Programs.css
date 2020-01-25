@@ -1,3 +1,117 @@
+#program-list
+{
+  overflow: hidden;
+}
+
+#wrap-1
+{
+  flex: 1;
+}
+
+#external-body-container
+{
+
+  padding: 25px;
+  
+  width: 1110px;
+  height: 600px;
+
+  margin-left: 66px;
+  margin-top: 197px;
+  
+  background: #D9E9FF;
+} 
+
+
+#interal-body-container
+{
+
+  padding: 25px;
+  
+  width: 1110px;
+  height: 600px;
+
+  margin-left: 66px;
+  margin-top: 197px;
+  
+  background: #D9E9FF;
+} 
+
+#title
+{
+  padding-top: 67px;
+  margin-right: 161px;
+  margin-left: 40px;
+
+
+    /* Heading 1 */
+
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+
+    /* dark blue */
+
+    color: #3C507B;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  clear:both;
+}
+
+#text-LAMP
+{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  width: 620px;
+  height: 390px;
+
+  padding: 20px;
+  margin-left: 324px;
+
+  color: #000000;
+}
+
+#text-SPIEL
+{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-left: 20px;
+  width: 620px;
+  height: 390px;
+
+  padding: 20px;
+  color: #000000;
+}
+
+#text-SERVICE
+{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-left: 800px;
+  width: 255px;
+  height: 346px;
+
+  padding: 30px;
+  color: #000000;
+}
+
 .what-do-we-do {
   background-image: linear-gradient(
       rgba(0,0,0,0.5), 

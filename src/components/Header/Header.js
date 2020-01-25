@@ -8,7 +8,7 @@ function Header() {
         <div class='top-bar' id = 'my-top-bar'>
           <div class='top-rssla'>RSSLA</div>
           <div class='menu'>
-              <a class='menu-item' href='/'><em>programs</em></a>
+              <a class='menu-item' href='/programs'><em>programs</em></a>
               <a class='menu-item' href='/board'><em>board</em></a>
               <a class='menu-item' href='/prospectives'><em>prospectives</em></a>
               <a class='menu-item' href='/contact'><em>contact</em></a>
