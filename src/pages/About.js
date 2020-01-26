@@ -1,8 +1,17 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter} from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './About.css'; 
 import Footer from '../components/Footer/Footer'; 
- 
+import conference_2019 from './pictures/2019_Conference.jpg'; // 2019 Inter-UC Conference 
+import kayaking_2018 from './pictures/2018_Kayak_Fall_3.jpg'; // 2018 Kayaking
+import blueprint from './pictures/blueprint logo.png';
+import nextstep from './pictures/nextstep-footer.png';
+
+console.log(conference_2019);
+console.log(kayaking_2018);
+console.log(blueprint);
+console.log(nextstep);
+
 
 // function AppRouter(){
 //   return(
@@ -13,20 +22,21 @@ import Footer from '../components/Footer/Footer';
 // }
 
 function About() {
-  return (
+    return (
     <div>
-      {/* <!-- BODY ONE --> */}
-      <div class='body-1'>
+        <div class='body-1'>
           <div class='body-1-title'>
               <div class='body-1-rssla'><strong>RSSLA</strong></div>
               <div class='body-1-rssla-text'>
-                          <em>HI Regents Scholar Society at UCLA</em>
-                      <br/><br/>
-                      <hr/>
+                  <em>Regents Scholar Society at UCLA</em>
+                  <br/>
+                  <br/>
+                 <hr/>
               </div>
           </div>
+      
         <br/><br/>
-          <div class='body-1-text'>
+        <div class='body-1-text'>
               
                   Members of the Regents Scholar Society are the top 1.5% of UCLA undergraduate applicants each year. 
                   We're smart, we're dedicated, and we're passionate. More than that, we believe what we do speaks for itself.
@@ -36,7 +46,7 @@ function About() {
           <button class='body-1-button'>Learn More</button>
           </div>
       </div>
-      {/* <!-- BODY TWO --> */}
+
       <div class='body-2'>
           <div class='body-2-title-wrap'>
               <div class='body-2-title'><strong>INTRODUCING RSS</strong></div>
@@ -49,22 +59,27 @@ function About() {
               <br/><br/>
               We strive to support our members and the local community through our various internal and external programs, 
               including service events, leadership opportunities, and the Los Angeles Mentorship Program.
-
               </div>
           </div>
       </div>
-       {/* <!-- IMAGE ROW --> */}
+
 
        <div class = 'img-row'>
-          <div align='center'>
-              <img src = 'https://s3-alpha-sig.figma.com/img/099d/8e5a/37b2cf91254ebfae0a4c9dc1ccd093e4?Expires=1579478400&Signature=QVg3tOhWynxk3C~Yn3qMVOVzY9eT4K-uFt8fN0MiaOynIrSNc-AwV~~QZM0eMH~M0wP5HyoqNPjPNcJcCC17hOOG7nCRdSFnGqcx~frGbCbrZsjRHgke5vDuOLvySHyFkH7JG6I5cxRZ2bKb5Hh~cGg2BbiQ6RNP7oABPWtNk1MehIi4VL9oeXnFDOqaY7wskmzadZ8FKX3O2LfSFNA9t6iF~rq-9gh9LnwbCoBeVkFe4YJTYnq0GABrpxNMWJugTj-WGXF3lBdmj0XC~tnwWpWTkFShvL6QewC-XpP7SH9K6nQtCBAcUoQQI0R1Kh8hZ6kwFVSYyGaCdU6AF5leJA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA' class = 'img-1'/>
-              <img src = 'https://s3-alpha-sig.figma.com/img/099d/8e5a/37b2cf91254ebfae0a4c9dc1ccd093e4?Expires=1579478400&Signature=QVg3tOhWynxk3C~Yn3qMVOVzY9eT4K-uFt8fN0MiaOynIrSNc-AwV~~QZM0eMH~M0wP5HyoqNPjPNcJcCC17hOOG7nCRdSFnGqcx~frGbCbrZsjRHgke5vDuOLvySHyFkH7JG6I5cxRZ2bKb5Hh~cGg2BbiQ6RNP7oABPWtNk1MehIi4VL9oeXnFDOqaY7wskmzadZ8FKX3O2LfSFNA9t6iF~rq-9gh9LnwbCoBeVkFe4YJTYnq0GABrpxNMWJugTj-WGXF3lBdmj0XC~tnwWpWTkFShvL6QewC-XpP7SH9K6nQtCBAcUoQQI0R1Kh8hZ6kwFVSYyGaCdU6AF5leJA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA' class = 'img-2'/>
+          <div class = 'img-column'>
+              <img src = {conference_2019} alt = 'Inter-UC Conference, 2019' class = 'img-1'/>
+            </div>
+            <div class = 'img-column'>
+            <img src = {kayaking_2018} alt = 'Kayaking, 2018' class = 'img-2'/>  
           </div>
       </div>
-{/* <!-- BODY THREE --> */}
+      
+
       <div class='body-3'>
           <div class='body-3-wrap'>
-              <div class='body-3-title'><img src='threepillars.png'/></div>
+              <div class="vertical-text">
+              <p class="black-text">THE THREE PILLARS </p>
+                        <br/>THE THREE PILLARS
+            </div>
           <div class='pillar-wrap'>
               <div class='pillar'>
                   <div class='pillar-text-1'>Scholarship</div>
@@ -81,16 +96,19 @@ function About() {
           </div>
           </div>
       </div>
-      {/* <!-- SPONSORS --> */}
+
       <div class='sponsors'>
           <div class='sponsors-title'><strong>SPONSORS</strong></div>
-          <div class='sponsor-1-wrap'>
-              <div class='sponsor-1'>Blueprint</div>
+          <div class = 'sponsor-row'>
+              <div class = 'sponsor-column'>
+                <img src = {blueprint} alt = 'Blueprint LSAT Tutoring' class = 'img-sponsor'/>
+                </div>
+                <div class ='sponsor-column'>
+              <img src = {nextstep} alt = 'NextStep MCAT Tutoring' class = 'img-sponsor'/>
+            </div>
+          </div>
           </div>
       </div>
-      
-
-    </div>
   );
 }
 

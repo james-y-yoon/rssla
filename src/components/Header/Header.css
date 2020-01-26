@@ -10,9 +10,15 @@
 }
 .top-rssla{
     color: #F2FAFF; 
-    font-size: 48px; 
-    padding: 10px; 
+    font-size: 3.5vh; 
+    padding: 1%; 
     font-weight: 400; 
+    text-decoration: none;
+}
+.top-rssla:hover{
+    color: white;
+    cursor: pointer;
+    opacity: 0.6;
 }
 .menu-item{
     text-decoration: none; 
@@ -24,7 +30,7 @@
     color: #F2FAFF; 
     width: 60%; 
     justify-content: space-around; 
-    font-size: 18px; 
+    font-size: 10vw; 
     margin-top: auto;
     margin-bottom: auto; 
     font-family: 'Source Sans Pro', monospace;
@@ -33,4 +39,11 @@
     color:white; 
     text-decoration: underline; 
     cursor: pointer;
+    opacity: 0.6;
+}
+.logo{
+    width: 7%;
+    height: auto;
+    padding-left: 3%;
+    padding-top: 3%
 }
