@@ -16,8 +16,7 @@ function Programs(){
         
             <div id="program-list">
                 
-                <div id="external-body-container">
-                    
+                <div id="external-body-container">                    
                     <div id= "title">
                         Los Angeles Mentorship Program (L.A.M.P.)
                     </div>
@@ -37,6 +36,7 @@ function Programs(){
                     </div>
 
                 </div>
+
                 <div id="external-body-container">
                     <div id= "title">
                         STUDENTS PRESENTING, INNOVATING, ENTERTAINING, LEARNING (S.P.I.E.L.)
@@ -53,6 +53,7 @@ function Programs(){
                         </p1>
                     </div>
                 </div> 
+
                 <div id="external-body-container">
                     <div id= "title">
                         Service
@@ -63,7 +64,53 @@ function Programs(){
                         Stay tuned on our Facebook group to get involved!
                         </p1>
                     </div>
-                </div>              
+                </div> 
+
+                <div id="internal-body-container">
+                    <div id= "title">
+                        Mentorship Information
+                    </div>
+                    <div id = "text-MENTORSHIP">
+                        <p1>
+                        Our peer mentors are upperclassmen who have recently been in the shoes of our new RSSers and want to give back by helping them learn the ropes of UCLA!
+                        <br></br><br></br>
+                        Our alumni mentors are graduated RSSers who have broken through their industries and can provide professional advice to aspiring professionals.
+                        <br></br><br></br>
+                        Finally, our faculty mentorship program pairs RSSers and faculty members to cultivate relationships and help members learn more about their passions and fields of study.
+                        </p1>
+                    </div>
+                </div> 
+
+                <div id="internal-body-container">
+                    <div id= "title">
+                        Education Resource
+                    </div>
+                    <div id = "text-SPIEL">
+                        <p1>
+                        We want our Regents Scholars to grow, to succeed, and to thrive. Thus, we offer a variety of different resources for our members to take advantage of! Whether it be resume reviews,
+                        information sessions, workshops, or course planning events - we aim to ensure that each RSS member has the resources they need to succeed.
+                        </p1>
+                    </div>
+                </div> 
+
+                
+                <div id="internal-body-container-committee">
+                    <div id= "title">
+                        Committees
+                    </div>
+                    <div id = "text-SPIEL">
+                        <p1>
+                        Through our committees, you can engage with the society, develop leadership skills, and utilize all of our resources! Applications open every fall quarter.
+                        </p1>
+                        <div id= "title">
+                            2019-2020 Committees
+                        </div>
+                    </div>
+                    <div id = "committees">
+                        
+                    </div>
+                </div> 
+
             </div>
             
         </div>

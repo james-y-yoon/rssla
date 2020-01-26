@@ -17,13 +17,19 @@
   height: 600px;
 
   margin-left: 66px;
-  margin-top: 197px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   
   background: #D9E9FF;
 } 
 
+@media screen and (max-width: 600px) {
+  .external-body-container {
+    width: 100%;
+  }
+}
 
-#interal-body-container
+#internal-body-container
 {
 
   padding: 25px;
@@ -31,11 +37,26 @@
   width: 1110px;
   height: 600px;
 
-  margin-left: 66px;
-  margin-top: 197px;
+  margin-left: 266px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   
   background: #D9E9FF;
 } 
+
+#internal-body-container-committee
+{
+  padding: 25px;
+  
+  width: 1110px;
+  height: 1330px;
+
+  margin-left: 266px;
+  margin-top: 88px;
+  margin-bottom: 88px;
+  
+  background: #D9E9FF;
+}
 
 #title
 {
@@ -111,6 +132,23 @@ img {
   padding: 30px;
   color: #000000;
 }
+
+#text-MENTORSHIP
+{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-left: 500px;
+  width: 550px;
+  height: 350px;
+
+  padding: 30px;
+  color: #000000; 
+}
+
 
 .what-do-we-do {
   background-image: linear-gradient(
