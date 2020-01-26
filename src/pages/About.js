@@ -5,10 +5,12 @@ import Footer from '../components/Footer/Footer';
 import conference_2019 from './pictures/2019_Conference.jpg'; // 2019 Inter-UC Conference 
 import kayaking_2018 from './pictures/2018_Kayak_Fall_3.jpg'; // 2018 Kayaking
 import blueprint from './pictures/blueprint logo.png';
+import nextstep from './pictures/nextstep-footer.png';
 
 console.log(conference_2019);
 console.log(kayaking_2018);
 console.log(blueprint);
+console.log(nextstep);
 
 
 // function AppRouter(){
@@ -74,7 +76,10 @@ function About() {
 
       <div class='body-3'>
           <div class='body-3-wrap'>
-              <div class='body-3-title'><img src='threepillars.png'/></div>
+              <div class="vertical-text">
+              <p class="black-text">THE THREE PILLARS </p>
+                        <br/>THE THREE PILLARS
+            </div>
           <div class='pillar-wrap'>
               <div class='pillar'>
                   <div class='pillar-text-1'>Scholarship</div>
@@ -94,7 +99,14 @@ function About() {
 
       <div class='sponsors'>
           <div class='sponsors-title'><strong>SPONSORS</strong></div>
-              <img src = {blueprint} alt = 'Blueprint LSAT Tutoring' class = 'img-sponsor-1'/>
+          <div class = 'sponsor-row'>
+              <div class = 'sponsor-column'>
+                <img src = {blueprint} alt = 'Blueprint LSAT Tutoring' class = 'img-sponsor'/>
+                </div>
+                <div class ='sponsor-column'>
+              <img src = {nextstep} alt = 'NextStep MCAT Tutoring' class = 'img-sponsor'/>
+            </div>
+          </div>
           </div>
       </div>
   );

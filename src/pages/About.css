@@ -11,12 +11,6 @@
     font-family: 'Playfair Display', monospace;
   
   }
-  .top-rssla{
-    color: #F2FAFF; 
-    font-size: 48px; 
-    padding: 10px; 
-    font-weight: 400; 
-  }
   .menu{
     display: flex; 
     flex-direction: row; 
@@ -63,7 +57,7 @@
   
   .body-1-text{
     padding: 20px; 
-    font-family: 'Libre Baskerville', serif;    
+    font-family: 'Source Sans Pro', serif;    
     font-size: 18px; 
     color: white; 
     width: 80%; 
@@ -87,6 +81,9 @@
     margin-left: auto; 
     margin-right: auto; 
   }
+  .body-1-button:hover{
+    opacity: 0.6;
+  }
   
   .body-1-button:hover{
     text-decoration: underline; 
@@ -108,7 +105,7 @@
   }
   .body-2-text-1{
     font-size: 1.8vw; 
-    font-family: 'Libre Baskerville', serif;    
+    font-family: 'Source Sans Pro', serif;    
     width: 100%; 
     padding: 20px; 
     margin: 20px; 
@@ -132,42 +129,39 @@
     display: flex; 
     flex-direction: row; 
     justify-content: auto;
+    background-color:  #D9E9FF;
   }
 
   .img-column{
     flex: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 5%;
   }
   
   .img-1{
-    width: 80%; 
-    height: auto; 
-    border: 0.5px solid black;
-    margin: 10%;
+    width: 90%; 
+    height: auto;
+    border: 0.1vw solid black;
   }
   .img-2{
-    width: 80%; 
+    width: 83%; 
     height: auto; 
-    margin: 10%;
-    border: 0.5px solid black;
+    border: 0.1vw solid black;
   }
   
   .body-3{
-    padding: 20px; 
-    margin-top: 50px; 
-    margin-bottom: 50px; 
+    margin-bottom: 10%; 
   }
   .body-3-wrap{
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column; 
   }
   .body-3-title{
     font-family: 'Overpass Mono', monospace;
-    font-size: 4.5vw; 
+    font-size: 4vw; 
     text-align: center; 
-    margin: 10px; 
+    margin: 10%; 
     margin-top: auto; 
     margin-bottom: auto; 
     margin-left: 5%; 
@@ -175,49 +169,72 @@
     height: auto; 
   }
   .pillar-wrap{
-    margin: 20px; 
-    margin-right: 10vw; 
+    margin-left: 15%;
+    margin-right: 0%;
   }
   .pillar{
     text-align: center; 
     background-color: #D9E9FF; 
-    margin: 15px; 
+    margin-left: 10%;
   }
   .pillar-text-1{
     font-family: 'Overpass Mono', monospace;
     color: #3C507B; 
-    font-size: 30px; 
-    padding: 20px; 
-    padding-top: 30px; 
+    font-size: 3vw; 
+    padding: 2%;
+    padding-top: 5%; 
     text-align: right; 
   }
   .pillar-text-2{
     font-family: 'Source Sans Pro', serif;
     color: black; 
-    font-size: 18px; 
-    text-align: right; 
-    padding: 20px; 
+    font-size: 1.5vw; 
+    text-align: left; 
+    padding: 2%; 
   }
   
   .sponsors{ 
-    margin-bottom: 20%; 
-    padding-bottom: 5%;
+    margin-bottom: 5%; 
+    margin-top: 5%;
   }
-  .sponsors-title{
-    width: 30%; 
+  .sponsors-title{ 
     font-size: 4.5vw; 
     color: #3C507B;
-    text-align: center; 
     font-family: 'Overpass Mono', monospace;
-    margin-left: 8vw; 
-    margin-bottom: 10%
+    margin-bottom: 5%;
   }
-  .img-sponsor-1{
-    width: 20%; 
+  .img-sponsor{
+    width: 40%; 
     height: auto; 
-    padding: 5%;
-    border: 0.5px solid black;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: auto;
+    vertical-align: middle;
+  }
+  .sponsor-row{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: auto;
+    background-color:  #D9E9FF;
+  }
+  .sponsor-column{
+    flex: 50%;
     margin-left: auto;
     margin-right: auto;
-    }
+    padding: 5%;
+  }
+  .vertical-text {
+    position: relative;
+    bottom: 50%;
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 5vw;
+
+    color: #6C7888;
+    transform: rotate(-90deg) translate(-78%, 0%);
+    transform-origin: left;
+    margin-left: 10%;
+}
   

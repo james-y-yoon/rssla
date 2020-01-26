@@ -10,8 +10,8 @@
 }
 .top-rssla{
     color: #F2FAFF; 
-    font-size: 10vw; 
-    padding: 5%; 
+    font-size: 3.5vh; 
+    padding: 1%; 
     font-weight: 400; 
     text-decoration: none;
 }
@@ -42,7 +42,7 @@
     opacity: 0.6;
 }
 .logo{
-    width: 15%;
+    width: 7%;
     height: auto;
     padding-left: 3%;
     padding-top: 3%
