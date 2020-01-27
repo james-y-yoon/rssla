@@ -13,33 +13,84 @@
 
   padding: 25px;
   
-  width: 1110px;
+  width: 75%;
   height: 600px;
 
   margin-left: 66px;
-  margin-top: 197px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   
   background: #D9E9FF;
 } 
 
+@media screen and (max-width: 600px) {
+  .external-body-container {
+    width: 100%;
+  }
+}
 
-#interal-body-container
+#internal-body-container
 {
 
   padding: 25px;
   
-  width: 1110px;
+  width: 75%;
   height: 600px;
 
-  margin-left: 66px;
-  margin-top: 197px;
+  margin-left: 266px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   
   background: #D9E9FF;
 } 
 
+#internal-body-container-committee
+{
+  padding: 25px;
+  
+  width: 75%;
+  height: 1330px;
+
+  margin-left: 266px;
+  margin-top: 88px;
+  margin-bottom: 88px;
+  
+  background: #D9E9FF;
+}
+
+#committee
+{
+  border-style: solid;
+  border-radius: 2px;
+  height: 52%;
+  padding: 20px;
+}
+
+#committee-text
+{
+  padding: 5 px;
+  border-left: 1.5px solid black;
+  height: 500px;
+}
+
+ul.committee {
+
+  font-family: Source Sans Pro;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+
+
+  color: #000000;
+  padding-left: 60px;
+
+  line-height: 100px;
+}
+
 #title
 {
   padding-top: 67px;
+  padding-bottom: 40px;
   margin-right: 161px;
   margin-left: 40px;
 
@@ -57,9 +108,16 @@
     color: #3C507B;
 }
 
-img {
+#left {
   float: left;
-  margin-right: 10px;
+  margin-left: 2%;
+  margin-top: 5%;
+  clear:both;
+}
+
+#right {
+  border-right: 50px solid #D9E9FF;
+  float: right;
   clear:both;
 }
 
@@ -111,6 +169,23 @@ img {
   padding: 30px;
   color: #000000;
 }
+
+#text-MENTORSHIP
+{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-left: 500px;
+  width: 550px;
+  height: 350px;
+
+  padding: 30px;
+  color: #000000; 
+}
+
 
 .what-do-we-do {
   background-image: linear-gradient(
