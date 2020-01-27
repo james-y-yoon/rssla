@@ -13,7 +13,7 @@
 
   padding: 25px;
   
-  width: 1110px;
+  width: 75%;
   height: 600px;
 
   margin-left: 66px;
@@ -34,7 +34,7 @@
 
   padding: 25px;
   
-  width: 1110px;
+  width: 75%;
   height: 600px;
 
   margin-left: 266px;
@@ -48,7 +48,7 @@
 {
   padding: 25px;
   
-  width: 1110px;
+  width: 75%;
   height: 1330px;
 
   margin-left: 266px;
@@ -58,9 +58,39 @@
   background: #D9E9FF;
 }
 
+#committee
+{
+  border-style: solid;
+  border-radius: 2px;
+  height: 52%;
+  padding: 20px;
+}
+
+#committee-text
+{
+  padding: 5 px;
+  border-left: 1.5px solid black;
+  height: 500px;
+}
+
+ul.committee {
+
+  font-family: Source Sans Pro;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+
+
+  color: #000000;
+  padding-left: 60px;
+
+  line-height: 100px;
+}
+
 #title
 {
   padding-top: 67px;
+  padding-bottom: 40px;
   margin-right: 161px;
   margin-left: 40px;
 
@@ -78,9 +108,16 @@
     color: #3C507B;
 }
 
-img {
+#left {
   float: left;
-  margin-right: 10px;
+  margin-left: 2%;
+  margin-top: 5%;
+  clear:both;
+}
+
+#right {
+  border-right: 50px solid #D9E9FF;
+  float: right;
   clear:both;
 }
 
