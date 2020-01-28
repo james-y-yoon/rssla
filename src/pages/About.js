@@ -6,12 +6,16 @@ import conference_2019 from './pictures/2019_Conference.jpg'; // 2019 Inter-UC C
 import kayaking_2018 from './pictures/2018_Kayak_Fall_3.jpg'; // 2018 Kayaking
 import blueprint from './pictures/blueprint logo.png';
 import nextstep from './pictures/nextstep-footer.png';
+import background_1 from './pictures/2018_InterUC_2.HEIC';
+import kaplan from './pictures/kaplan.png';
+
 
 console.log(conference_2019);
 console.log(kayaking_2018);
 console.log(blueprint);
 console.log(nextstep);
-
+console.log(background_1);
+console.log(kaplan);
 
 // function AppRouter(){
 //   return(
@@ -106,6 +110,9 @@ function About() {
                 <div class ='sponsor-column'>
               <img src = {nextstep} alt = 'NextStep MCAT Tutoring' class = 'img-sponsor'/>
             </div>
+            <div class = 'sponsor-column'>
+                <img src = {kaplan} alt = 'Kaplan Test Prep' class = 'img-sponsor'/>
+                </div>
           </div>
           </div>
       </div>

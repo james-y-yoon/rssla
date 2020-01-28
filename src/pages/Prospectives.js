@@ -9,9 +9,7 @@ function Prospectives() {
             <div class='prospectives1'>
                 <div class='body-1-prospectives'>
                     <div class='body-1-title'>
-                        <div class='body-1-rssla'>
                             <strong>Congratulations!</strong>
-                        </div>
                     </div>
                     <br /><br />
                     <p class='body-1-prospectives-text'>
@@ -54,22 +52,22 @@ function Prospectives() {
                         <div class="table-prospectives">
                             <table>
                                 <tr>
-                                    <td class="vertical-line">• OSP Session 1: April</td>
+                                    <td class="vertical-line">•<b> OSP Session 1:</b> April 2-4, 2020</td>
                                     <td class="button-wrap left-padding"><button class="button-1">Itinerary</button></td>
                                     <td class="button-wrap"><button class="button-1">Sign Up!</button></td>
                                 </tr>
                                 <tr>
-                                    <td class="vertical-line">• OSP Session 2: April</td>
+                                    <td class="vertical-line">• <b>OSP Session 2:</b> April 4-6, 2020</td>
                                     <td class="button-wrap left-padding"><button class="button-1">Itinerary</button></td>
                                     <td class="button-wrap"><button class="button-1">Sign Up!</button></td>
                                 </tr>
                                 <tr>
-                                    <td class="vertical-line">• OSP Session 3: April</td>
+                                    <td class="vertical-line">• <b>OSP Session 3:</b> April 9-11, 2020</td>
                                     <td class="button-wrap left-padding"><button class="button-1">Itinerary</button></td>
                                     <td class="button-wrap"><button class="button-1">Sign Up!</button></td>
                                 </tr>
                                 <tr>
-                                    <td class="vertical-line">• OSP Session 4: April</td>
+                                    <td class="vertical-line">• <b>OSP Session 4:</b> April 11-13, 2020</td>
                                     <td class="button-wrap left-padding"><button class="button-1">Itinerary</button></td>
                                     <td class="button-wrap"><button class="button-1">Sign Up!</button></td>
                                 </tr>
@@ -149,14 +147,14 @@ function Prospectives() {
                             <br />Regents Scholars also have access to the following mentorship programs:
                             <br /><br />
                             <ul>
-                                <li>PEER MENTOR: an upperclassmen undergraduate</li>
-                                <li>ALUMNI MENTOR: previous RSSers who've graduated</li>
-                                <li>FACULTY MENTOR: UCLA faculty who dedicate their time to mentoring RSSers</li>
+                                <li><b>PEER MENTOR:</b> an upperclassmen undergraduate</li>
+                                <li><b>ALUMNI MENTOR:</b> previous RSSers who've graduated</li>
+                                <li><b>FACULTY MENTOR:</b> UCLA faculty who dedicate their time to mentoring RSSers</li>
                             </ul>
                         </div>
                     </div>
                     <div class="group2">
-                        <div class="capital-heading4">GUARENTEES</div>
+                        <div class="capital-heading4">GUARANTEES</div>
                         <div class="gua">
                             <br />Because of your Regents Scholarship, you are guaranteed:
                             <br /><br />
