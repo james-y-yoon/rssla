@@ -22,7 +22,7 @@ function AppRouter() {
       <BrowserRouter>
       <Header/>
       <Switch>
-        <Route path='/about' exact component={About} />
+        <Route path='/' exact component={About} />
         <Route path='/prospectives' component={Prospectives} />
         <Route path='/board' component={Board} />
         <Route path='/programs' component={Programs} />
