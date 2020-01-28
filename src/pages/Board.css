@@ -1,0 +1,86 @@
+.intro {
+    position: absolute;
+    width: 1440px;
+    height: 361px;
+    left: 0px;
+    top: 0px;
+  
+    background: url();
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 31px;
+    grid-column-gap: 29px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+  
+    background-color: #D9E9FF;
+    width: 300px;
+    height: 583px;
+  }
+  
+  .grid-item img {
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 10px;
+    height: 288px;
+    width: 273px;
+    /* left: 4.32%;
+    right: 4.32%; */
+    /* top: 3.31%;
+    bottom: 49.91%; */
+  }
+  
+  .title {
+    width: 288px;
+    height: 59px;
+    flex: 70%;
+    padding-top: 40px;
+    align-content: center;
+  
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+  
+    /* or 125% */
+    display: inline-block;
+    text-align: center;
+    letter-spacing: -0.065em;
+  
+    /* Text */
+    color: #000000;
+  }
+  
+  .name {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    /* padding-top: 70px; */
+    vertical-align: bottom;
+  }
+  
+  .major {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 30px;
+    display: inherit;
+    text-align: center;
+    padding-top: 0.1px;
+    vertical-align: bottom;
+  }
