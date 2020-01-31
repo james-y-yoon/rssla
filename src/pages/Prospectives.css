@@ -8,36 +8,29 @@
     overflow: hidden;
 }
 
-.prospectives2 {
-    display: flex;
-}
-
-.prospectives3 {
-    display: flex;
-    margin-top: 100px;
-}
-
-.prospectives4 {
-    margin-top: 20%;
-    margin-bottom: 20%;
-}
-
-.wrap1 {
-    flex: 1;
-}
-
 .wrap2 {
-    width: 10%;
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 98px;
+
+    color: navy;
+
+    width: 80%;
+    padding-top: 5%;
+    margin: auto;
 }
 
 .body-1-title{
-    font-size: 5vw; 
+    font-size: 65px; 
     font-family: 'Overpass Mono', monospace;
     padding: 5%; 
     color: white; 
 }
+
 .body-1-prospectives {
-    /* background-color: #F2FAFF;  */
+    width: 100%;
     padding: 20px; 
     padding-top: 100px; 
     padding-bottom: 250px; 
@@ -47,45 +40,46 @@
         rgba(0,0,0,0.7)
       ), url("https://s3-alpha-sig.figma.com/img/36f4/283f/5b2017c194eb2e6009c1689d734cae4d?Expires=1580083200&Signature=Yhearw2fzGWotzi7pEvRf8HS3-KficuItRYom4OVELC-wS-SGE5IdqEiG6i13TFk4Wkvi8t3gXJLJMfs9DfJelKpopZotTkiXcofzcr4a9d~PppQlTg0Wz3f6P0EXGwCWZ3nvNg6NTW6zwF0GVJxAUc5bXrwWPwYRW~6uhH1QUgCgSE2E8hYAlzZjfBQ-kfURgr7dVz4WTx5e5J0tA-6g1iKgNsmnMg1mWp9rXqeijwDBF4IAs6YKVMkjIeXYCKGYr0-kkYdkrKnvjmuzBjfcrRpAGCAC-eyjfSyQmE2T~EYHispDe8rUazOXIkZWmXPvt3nKIHBJLyMWeHurHQLsg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     background-size: cover;  
+    /* height: 100vh; */
 }
 
 .body-1-prospectives-text {
-    border-left: 0.25vw solid white; 
+    border-left: 1px solid white; 
     color: white;
-    padding-left: 5%;
+    padding-left: 1%;
     width: 80%; 
     margin: auto;
-    font-size: 1.8vw;
+    font-size: 24px;
     margin-left: 10%;
     font-family: 'Source Sans Pro';
 }
 
 .body-2-prospectives {
-    width: 60%; 
+    width: 80%; 
     align-items: center;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 2.5vw;
+    font-size: 24px;
 
     margin: auto;
 
-    margin-bottom: 10vh;
-    margin-left: 12%;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .body-3-prospectives {
-    width: 60%;
+    width: 80%;
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;
-    font-size: 1.8vw;
+    font-size: 24px;
     line-height: 30px;
     padding: 20px; 
 
     background-color: #D9E9FF; 
-    margin-left: 12%;
+
+    margin: auto;
 }
 
 .blue-padding {
@@ -94,35 +88,34 @@
 }
 
 .capital-heading {
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 55px;
     color: navy;
     font-style: normal;
-    margin: 1vw; 
-    padding: 2vw; 
+    width: 80%;
+    padding: 50px; 
+
+    margin: auto;
     font-family: Overpass Mono;
 }
 
 table {
-    width: 100%;
+    width: 85%;
     margin: auto;
     border-collapse: collapse;
-    
 }
 
 td.vertical-line {
     border-right: solid 1px black; 
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .table-prospectives {
     font-style: normal;
-    font-family: 'Source Sans Pro';
-    font-size: 1.8vw;
-    margin: 1.5vw; 
-    padding: 1vw; 
+    font-family: Nunito Sans;
+    font-size: 24px;
+    margin: 15px; 
+    padding: 25px; 
 }
 
 .button-wrap {
@@ -153,95 +146,29 @@ td.vertical-line {
 .button-1:hover {
     text-decoration: underline; 
     cursor: pointer;
-    opacity: 0.6;
-}
-
-.vertical-body {
-    width: 115vw;
-    height: 100vw; 
-    padding-left: 100px;
-
-    font-family: Overpass Mono;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 5vw;
-    line-height: 8vw;
-
-    color: #6C7888;
-    transform: rotate(90deg);
-    transform-origin: top left;
-}
-
-.vertical-body2 {
-    /* position: absolute; */
-    width: 1000px;
-    height: 500px; 
-    /* left: 1405px;
-    top: 575px; */
-    padding-right: 100px;
-
-    font-family: Overpass Mono;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 98px;
-
-    color: #6C7888;
-    transform: rotate(-90deg) translate(0%, -185%);
-    transform-origin: top right;
-}
-
-.body-2-prospectives2 {
-    width: 60%; 
-    align-items: center;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 2.5vw;
-
-    margin: auto;
-
-    margin-bottom: 50px;
-    margin-right: 12%;
-}
-
-.body-3-prospectives2 {
-    width: 60%;
-    font-family: Source Sans Pro;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 2.5vw;
-    padding: 10%; 
-
-    background-color: #D9E9FF; 
-
-    margin: auto;
-
-    margin-right: 12%;
 }
 
 .capital-heading2 {
     font-family: Overpass Mono;
     font-style: normal;
     font-weight: bold;
-    font-size: 5vw;
-    line-height: 3vw;
+    font-size: 64px;
+    line-height: 98px;
     text-align: left;
     
     color: #000000;
     
     width: 80%;
-    margin-left: 10%;
-    margin-bottom: 5%
+    margin: auto;
+
+    margin-top: 10%;
 }
 
 .capital-heading3 {
     font-family: Overpass Mono;
     font-style: normal;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 48px;
     line-height: 74px;
     text-align: center;
 
@@ -261,7 +188,8 @@ td.vertical-line {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.8vw;
+    font-size: 24px;
+    line-height: 30px;
     text-align: center;
 
     width: 80%;
@@ -274,8 +202,8 @@ td.vertical-line {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 2.5vw;
+    font-size: 24px;
+    line-height: 30px;
 
     width: 80%;
     margin-left: 10%;
@@ -297,8 +225,8 @@ td.vertical-line {
     font-family: Overpass Mono;
     font-style: normal;
     font-weight: bold;
-    font-size: 3vw;
-    line-height: 6vw;
+    font-size: 48px;
+    line-height: 74px;
     text-align: center;
 
     color: #000000;
@@ -310,27 +238,10 @@ td.vertical-line {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 3vw;
+    font-size: 24px;
+    line-height: 30px;
 
     color: #000000;
-}
-
-.gua {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 3vw;
-    /* text-align: right; */
-
-    color: #000000;
-}
-
-.gua > ul {
-    text-align: left;
-    list-style-position: inside;
-    font-style: italic;
 }
 
 .body-3-prospectives3 {
@@ -338,8 +249,8 @@ td.vertical-line {
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 3vw;
+    font-size: 24px;
+    line-height: 30px;
     padding: 20px; 
 
     background-color: #D9E9FF; 
@@ -354,21 +265,22 @@ td.vertical-line {
     font-family: Overpass Mono;
     font-style: normal;
     font-weight: bold;
-    font-size: 4vw;
-    line-height: 5vw;
-    text-align: left;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: right;
 
     color: #000000;
 
-    padding: 7%;
+    padding-right: 3%;
+    padding-top: 3%;
 }
 
 .faq-q {
     font-family: Overpass Mono;
     font-style: normal;
     font-weight: 600;
-    font-size: 2.5vw;
-    line-height: 5vw;
+    font-size: 24px;
+    line-height: 37px;
 
     color: #3C507B;
 
@@ -384,19 +296,14 @@ td.vertical-line {
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 2.5vw;
+    font-size: 24px;
+    line-height: 30px;
 
     color: #000000;
 
-    padding: 3%;
+    padding: 1.5%;
     padding-left: 10%;
-    padding-bottom: 7%;
 
     margin-left: 7%;
     margin-right: 7%;
-}
-
-.black-text {
-    color: black;
 }
