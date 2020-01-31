@@ -17,24 +17,17 @@
   height: 600px;
 
   margin-left: 66px;
-  margin-top: 88px;
-  margin-bottom: 88px;
+  margin-top: 197px;
   
   background: #D9E9FF;
 } 
 
-@media screen and (max-width: 600px) {
-  .external-body-container {
-    width: 100%;
-  }
-}
 
 #internal-body-container
 {
 
   padding: 25px;
-  
-  width: 75%;
+  width: 1110px;
   height: 600px;
 
   margin-left: 266px;
@@ -118,7 +111,7 @@ ul.committee {
 #right {
   border-right: 50px solid #D9E9FF;
   float: right;
-  clear:both;
+  clear: both;
 }
 
 #text-LAMP
@@ -179,13 +172,12 @@ ul.committee {
   line-height: 30px;
 
   margin-left: 500px;
-  width: 550px;
+  width: 530px; 
   height: 350px;
 
   padding: 30px;
   color: #000000; 
 }
-
 
 .what-do-we-do {
   background-image: linear-gradient(
