@@ -7,7 +7,7 @@ import Prospectives from './pages/Prospectives';
 import Programs from './pages/Programs'; 
 import About from './pages/About'; 
 import Board from './pages/Board';
-
+import NewHeader from './components/NewHeader/NewHeader'; 
 // function AppRouter(){
 //   return(
 //     <Router>
@@ -20,7 +20,8 @@ function AppRouter() {
   return (
     <div>
       <BrowserRouter>
-      <Header/>
+      {/* <Header/> */}
+      <NewHeader/>
       <Switch>
         <Route path='/' exact component={About} />
         <Route path='/prospectives' component={Prospectives} />
