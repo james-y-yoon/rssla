@@ -18,7 +18,7 @@ function Programs(){
         
             <div id="program-list">
                 
-                <div id="external-body-container">
+                <div id="body-container">
                     
                     <div id= "title">
                         Los Angeles Mentorship Program (L.A.M.P.)
@@ -39,7 +39,7 @@ function Programs(){
                     </div>
 
                 </div>
-                <div id="external-body-container">
+                <div id="body-container">
                     <div id= "title">
                         STUDENTS PRESENTING, INNOVATING, ENTERTAINING, LEARNING (S.P.I.E.L.)
                     </div>
@@ -55,7 +55,7 @@ function Programs(){
                         </p1>
                     </div>
                 </div> 
-                <div id="external-body-container">
+                <div id="body-container">
                     <div id= "title">
                         Service
                     </div>
@@ -67,7 +67,7 @@ function Programs(){
                     </div>
                 </div>
 
-                <div id="internal-body-container">
+                <div id="body-container">
                     <div id= "title">
                         Mentorship Information
                     </div>
@@ -83,7 +83,7 @@ function Programs(){
                     </div>
                 </div> 
 
-                <div id="internal-body-container">
+                <div id="body-container">
                     <div id= "title">
                         Education Resource
                     </div>
@@ -99,7 +99,7 @@ function Programs(){
                 </div> 
 
                 
-                <div id="internal-body-container-committee">
+                <div id="container-committee">
                     <div id= "title">
                         Committees
                     </div>
