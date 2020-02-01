@@ -1,11 +1,27 @@
-import React from 'react';
-import Header from '../components/Header/Header.js';  
+import React, { Component } from 'react';
 import './Programs.css'; 
 import LAMP_logo from '../lamp_logo.svg';
 import mentor_pic from '../mentor.png';
 import book_pic from '../book.png';
 
-function Programs(){
+class Programs extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+        };
+}
+
+    resize(size) {
+        var circle = document.getElementById('theCircleDiv'),
+            text = document.getElementById('theText');
+        circle.style.width = size + 'px';
+        circle.style.height = size + 'px';
+        circle.style.borderRadius = (size / 2) + 'px';
+    
+        text.style.lineHeight = size + 'px';
+    }
+
+render() {
     return(
         <div className="Programs">           
             <div class='what-do-we-do'>
@@ -132,4 +148,7 @@ function Programs(){
     ); 
 }
 
+}
+
 export default Programs; 
+

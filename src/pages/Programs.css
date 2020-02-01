@@ -5,7 +5,7 @@
 
 #wrap-1
 {
-  flex: 1;
+  flex: 2;
 }
 
 #body-container
@@ -16,8 +16,8 @@
   width: 75%;
   height: 600px;
 
-  margin-left: 66px;
-  margin-top: 197px;
+  margin-left: 8%;
+  margin-top: 8%;
   
   background: #D9E9FF;
 } 
@@ -30,9 +30,9 @@
   width: 75%;
   height: 1330px;
 
-  margin-left: 66px;
-  margin-top: 197px;
-  margin-bottom: 66px;
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-bottom: 8%;
   
   background: #D9E9FF;
 }
@@ -47,6 +47,7 @@
 
 #committee-text
 {
+  line-height: 2em;
   padding: 5 px;
   border-left: 1.5px solid black;
   height: 500px;
@@ -68,10 +69,8 @@ ul.committee {
 
 #title
 {
-  padding-top: 67px;
-  padding-bottom: 40px;
-  margin-right: 161px;
-  margin-left: 40px;
+  margin-top: 5%;
+  margin-left: 5%;
 
 
     /* Heading 1 */
@@ -108,11 +107,11 @@ ul.committee {
   font-size: 24px;
   line-height: 30px;
 
-  width: 620px;
-  height: 390px;
+  width: 60%;
 
-  padding: 20px;
+
   margin-left: 30%;
+  margin-top: 5%;
 
   color: #000000;
 }
@@ -129,7 +128,6 @@ ul.committee {
   width: 620px;
   height: 390px;
 
-  padding: 20px;
   color: #000000;
 }
 
@@ -144,8 +142,7 @@ ul.committee {
   margin-left: 800px;
   width: 255px;
   height: 346px;
-
-  padding: 30px;
+  
   color: #000000;
 }
 
@@ -155,13 +152,12 @@ ul.committee {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 1.2em;
 
   margin-left: 500px;
   width: 530px; 
   height: 350px;
 
-  padding: 30px;
   color: #000000; 
 }
 
@@ -198,7 +194,7 @@ ul.committee {
   padding-top: 60px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px)  {
     .what-do-we-do-title {
       font-size: 43px;
     }
@@ -218,43 +214,143 @@ ul.committee {
       display: none;
     }
 
-    #text-LAMP
+  #title
   {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+      /* Heading 1 */
+
+      font-family: Overpass Mono;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 55px;
+
+      /* dark blue */
+
+      color: #3C507B;
+  }
+
+  #text-LAMP
+  {
     font-size: 24px;
     line-height: 30px;
 
     width: 90%;
     height: 390px;
 
-    padding: 20px;
-    margin-left: 0%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 
-  }
+  } 
 
-  #title
+  #text-SPIEL
 {
-  padding-top: 67px;
-  padding-bottom: 40px;
-  margin-right: 40px;
-  margin-left: 40px;
+  font-size: 24px;
+  line-height: 30px;
 
+  width: 90%;
+  height: 390px;
 
-    /* Heading 1 */
-
-    font-family: Overpass Mono;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 55px;
-
-    /* dark blue */
-
-    color: #3C507B;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
+#text-SERVICE
+{
+  font-size: 24px;
+  line-height: 30px;
+
+  width: 90%;
+  height: 390px;
+
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#text-MENTORSHIP
+{
+  font-size: 24px;
+  line-height: 30px;
+
+  width: 90%;
+  height: 390px;
+
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+}
+
+@media only screen and (max-width: 753px)
+{
+  #title
+  {
+    font-size: 5vw;
+    line-height: 1.5em;
+  }
+  #text-LAMP
+  {
+
+    font-size: 3.3vw;
+    line-height: 1.2em;
+
+    width: 90%;
+    height: 390px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+  } 
+  #text-SPIEL
+  {
+
+    font-size: 3.3vw;
+    line-height: 1.2em;
+
+    width: 90%;
+    height: 390px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  
+  #text-SERVICE
+  {
+
+    font-size: 3.3vw;
+    line-height: 1.2em;
+
+    width: 90%;
+    height: 390px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  
+  #text-MENTORSHIP
+  {
+
+    font-size: 3.3vw;
+    line-height: 1.2em;
+
+    width: 90%;
+    height: 390px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  
 }
 
 @media only screen and (max-width: 825px) {
