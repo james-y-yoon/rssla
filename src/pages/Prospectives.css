@@ -8,27 +8,6 @@
     overflow: hidden;
 }
 
-.wrap2 {
-    font-family: Overpass Mono;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 98px;
-
-    color: navy;
-
-    width: 80%;
-    padding-top: 5%;
-    margin: auto;
-}
-
-.body-1-title{
-    font-size: 65px; 
-    font-family: 'Overpass Mono', monospace;
-    padding: 5%; 
-    color: white; 
-}
-
 .body-1-prospectives {
     width: 100%;
     padding: 20px; 
@@ -44,6 +23,13 @@
     /* height: 100vh; */
 }
 
+.body-1-title {
+    font-size: 75px; 
+    font-family: 'Overpass Mono', monospace;
+    padding: 5%; 
+    color: white; 
+}
+
 .body-1-prospectives-text {
     border-left: 1px solid white; 
     color: white;
@@ -55,22 +41,41 @@
     font-family: 'Source Sans Pro';
 }
 
+.freshman-prospectives {
+    width: 80%;
+    margin: auto;
+}
+
+.freshman-transfer-header {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 98px;
+
+    color: navy;
+
+    /* width: 80%; */
+    padding-top: 5%;
+    /* margin: auto; */
+}
+
 .body-2-prospectives {
-    width: 80%; 
+    /* width: 80%;  */
     align-items: center;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
 
-    margin: auto;
+    /* margin: auto; */
 
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
 .body-3-prospectives {
-    width: 80%;
+    /* width: 80%; */
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;
@@ -79,7 +84,7 @@
     padding: 20px; 
 
     background-color: #D9E9FF; 
-    margin: auto;
+    /* margin: auto; */
 }
 
 .blue-padding {
@@ -113,15 +118,13 @@ table {
 }
 
 .button-wrap {
-    text-align: center; 
-    font-family: Overpass Mono;
-    font-style: SemiBold;
     padding-left: 8%;
     padding-right: 8%;
 }
 
 .button-1 {
     font-family: 'Overpass Mono', sans-serif;
+    font-style: SemiBold;
     background-color: #3C4856; 
     border-radius: 10px; 
     border: 1px solid #000000;
@@ -138,6 +141,11 @@ table {
 .button-1:hover {
     text-decoration: underline; 
     cursor: pointer;
+}
+
+.transfer-prospectives {
+    width: 80%;
+    margin: auto;
 }
 
 .capital-heading2 {
@@ -176,7 +184,12 @@ table {
     border-bottom: 1px solid black;
 }
 
-.wrap4 {
+.the-scholarship {
+    width: 80%;
+    margin: auto;
+}
+
+.class-enrollment {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
@@ -184,32 +197,32 @@ table {
     line-height: 30px;
     text-align: center;
 
-    width: 80%;
-    margin-left: 10%;
+    /* width: 80%;
+    margin-left: 10%; */
 
     color: #000000;
 }
 
-.wrap5 {
+.mentorship-guarentees {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
 
-    width: 80%;
-    margin-left: 10%;
+    /* width: 80%;
+    margin-left: 10%; */
 
     color: #000000;
 
     display: flex;
 }
 
-.group1 {
+.mentorship-program {
     margin-right: 3%;
 }
 
-.group2 {
+.guarentees {
     margin-left: 3%;
 }
 
@@ -226,7 +239,7 @@ table {
     border-bottom: 1px solid black;
 }
 
-.m-p {
+.m-p-g {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
@@ -236,8 +249,7 @@ table {
     color: #000000;
 }
 
-.body-3-prospectives3 {
-    width: 60%;
+.faq {
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;
@@ -258,8 +270,8 @@ table {
     font-family: Overpass Mono;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 74px;
+    font-size: 50px;
+    line-height: 75px;
     text-align: right;
 
     color: #000000;
