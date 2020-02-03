@@ -38,7 +38,8 @@
     background-image: linear-gradient(
         rgba(0,0,0,0.7), 
         rgba(0,0,0,0.7)
-      ), url("https://s3-alpha-sig.figma.com/img/36f4/283f/5b2017c194eb2e6009c1689d734cae4d?Expires=1580083200&Signature=Yhearw2fzGWotzi7pEvRf8HS3-KficuItRYom4OVELC-wS-SGE5IdqEiG6i13TFk4Wkvi8t3gXJLJMfs9DfJelKpopZotTkiXcofzcr4a9d~PppQlTg0Wz3f6P0EXGwCWZ3nvNg6NTW6zwF0GVJxAUc5bXrwWPwYRW~6uhH1QUgCgSE2E8hYAlzZjfBQ-kfURgr7dVz4WTx5e5J0tA-6g1iKgNsmnMg1mWp9rXqeijwDBF4IAs6YKVMkjIeXYCKGYr0-kkYdkrKnvjmuzBjfcrRpAGCAC-eyjfSyQmE2T~EYHispDe8rUazOXIkZWmXPvt3nKIHBJLyMWeHurHQLsg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+      ), url("http://rssla.org/img/banner-bg5.jpg");
+    /* background-repeat: no-repeat; */
     background-size: cover;  
     /* height: 100vh; */
 }
@@ -78,7 +79,6 @@
     padding: 20px; 
 
     background-color: #D9E9FF; 
-
     margin: auto;
 }
 
@@ -90,24 +90,18 @@
 .capital-heading {
     font-size: 55px;
     color: navy;
+    line-height: 60px;
     font-style: normal;
     width: 80%;
     padding: 50px; 
-
-    margin: auto;
     font-family: Overpass Mono;
 }
 
 table {
-    width: 85%;
     margin: auto;
     border-collapse: collapse;
-}
-
-td.vertical-line {
-    border-right: solid 1px black; 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    align-self: right;
+    margin-right: 0px;
 }
 
 .table-prospectives {
@@ -122,10 +116,8 @@ td.vertical-line {
     text-align: center; 
     font-family: Overpass Mono;
     font-style: SemiBold;
-}
-
-.left-padding {
-    padding-left: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .button-1 {
@@ -257,6 +249,7 @@ td.vertical-line {
 
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 10%;
 
     width: 80%;
 }
