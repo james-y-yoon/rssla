@@ -50,7 +50,7 @@ function Prospectives() {
                         DATE AND ITINERARY
                     </div>
                     <div class = "table-prospectives">
-                        <p>DATE: April XX, 2020</p>
+                        <p>OSP DATE: April XX, 2020</p>
                         <table>
                             <tr>
                                 <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
