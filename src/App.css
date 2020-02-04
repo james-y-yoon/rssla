@@ -1,3 +1,5 @@
+/**
+
 *{
   margin: 0px; 
 }
@@ -35,6 +37,7 @@
 }
 .body-1{
   /* background-color: #F2FAFF;  */
+  /**
   padding: 20px; 
   padding-top: 100px; 
   padding-bottom: 250px; 
@@ -118,18 +121,7 @@
 .body-2-text-2-wrap{
   width: 93%; 
 }
-.body-2-text-2{
-  font-size: 1.8vw; 
-  font-family: 'Source Sans Pro', serif;   
-  border-left: 1px solid black; 
-  text-align: left; 
-  width: 80%; 
-  padding: 20px; 
-  padding-left: 30px;  
-  margin: 20px;  
-  margin-left: 13%; 
-  color: #0B3C5D; 
-}
+
 .img-row{
   display: flex; 
   flex-direction: row; 
@@ -221,3 +213,4 @@
   font-family: 'Overpass Mono', monospace;
   text-align: center; 
 }
+*/

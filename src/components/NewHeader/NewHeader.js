@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useEffect } from "react";
 import "./newHeader.css";
-import { CSSTransition } from "react-transition-group";
+import CSSTransition from "react-transition-group";
 
+/** 
 export default function NewHeader() {
   const [isNavVisible, setNavVisibility] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -47,7 +48,6 @@ export default function NewHeader() {
           <a href="/board">BOARD</a>
           <a href="/prospectives">PROSPECTIVES</a>
           <a href="/contact">CONTACT</a>
-          {/* <button>Logout</button> */}
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">
@@ -56,3 +56,4 @@ export default function NewHeader() {
     </header>
   );
 }
+*/
