@@ -64,6 +64,10 @@
 
 }
 
+.freshman-transfer-header span {
+    background-color: #fdfd96;
+}
+
 .body-2-prospectives {
     /* width: 80%;  */
     align-items: center;
@@ -107,40 +111,36 @@
     font-style: italic;
 }
 
-table {
-    margin: auto;
-    border-collapse: collapse;
-    align-self: right;
-    margin-right: 0px;
-}
-
-.table-prospectives {
-    font-style: normal;
-    font-family: Source Sans Pro;
-    font-size: 24px;
-    margin: 15px; 
-    padding: 25px; 
-}
-
-.button-wrap {
-    padding-left: 8%;
-    padding-right: 8%;
+.dates-itinerary {
+    overflow: auto;
 }
 
 .button-1 {
     font-family: 'Overpass Mono', sans-serif;
     font-style: SemiBold;
-    background-color: #3C4856; 
-    border-radius: 10px; 
+    background-color: #3C4856;
+    border-radius: 10px;
     border: 1px solid #000000;
-    font-size: 16px; 
-    padding-left: 13px; 
-    padding-right: 13px; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    color: white; 
-    margin-left: auto; 
-    margin-right: auto; 
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 8%;
+    display: inline;
+}
+
+span.nobreak {
+    white-space: nowrap;
+}
+
+span.right-float {
+    margin-right: 8%;
+    float: right;
+}
+
+span.left-float {
+    float: left;
+    margin-left: 5px;
 }
 
 .button-1:hover {

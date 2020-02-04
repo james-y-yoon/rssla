@@ -49,32 +49,45 @@ function Prospectives() {
                     <div class = "capital-heading">
                         DATES AND ITINERARIES
                     </div>
-                    <div class = "table-prospectives">
-                        <p>OSP Session 1: April XX, 2020</p><br/>
-                        <p>OSP Session 2: April XX, 2020</p><br/>
-                        <p>OSP Session 3: April XX, 2020</p><br/>
-                        <p>OSP Session 4: April XX, 2020</p><br/>
-                        <table>
-                            <tr>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign&nbsp;Up!</button></td>
-                            </tr>
-                            {/* <tr>
-                                <td class = "vertical-line">• OSP Session 2: April</td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign Up!</button></td>
-                            </tr>
-                            <tr>
-                                <td class = "vertical-line">• OSP Session 3: April</td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign Up!</button></td>
-                            </tr>
-                            <tr>
-                                <td class = "vertical-line">• OSP Session 4: April</td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign Up!</button></td>
-                            </tr> */}
-                        </table>
+
+                    <div class = "blue-padding dates-itinerary">
+                        <div><span class = "left-float">OSP Session 1: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/>
+                        <div><span class = "left-float">OSP Session 2: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/>
+                        <div><span class = "left-float">OSP Session 3: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/>
+                        <div><span class = "left-float">OSP Session 4: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                                <br/>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/><br/><br/>
                     </div>
                     
                 </div>
@@ -111,14 +124,12 @@ function Prospectives() {
                     <div class = "capital-heading">
                         MORE INFORMATION
                     </div>
-                    <div class = "table-prospectives">
-                        <table>
-                            <tr>
-                                <td></td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign&nbsp;Up!</button></td>
-                            </tr>
-                        </table>
+                    <div class = "blue-padding">
+                        <span class = "nobreak right-float">
+                            <button class = "button-1">Itinerary</button>
+                            <button class = "button-1">Sign&nbsp;Up!</button>
+                        </span>
+                        <br/><br/>
                     </div>
                 </div>
             </div>
