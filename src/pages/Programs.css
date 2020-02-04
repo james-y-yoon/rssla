@@ -75,7 +75,7 @@ ul.committee {
 
     /* Heading 1 */
 
-    font-family: Overpass Mono;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -171,10 +171,10 @@ ul.committee {
 }
 
 .what-do-we-do-title {
-  font-family: Overpass Mono;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 128px;
   color: #F2FAFF;
   line-height: 98px;
   padding-left: 105px;
@@ -192,6 +192,20 @@ ul.committee {
   color: #D9E9FF;
   padding-left: 193px;
   padding-top: 60px;
+}
+
+.subheading {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 60px;
+  color: navy;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.subheading span{
+  background-color: #fdfd96;
 }
 
 @media only screen and (max-width: 1400px)  {
@@ -223,7 +237,7 @@ ul.committee {
 
       /* Heading 1 */
 
-      font-family: Overpass Mono;
+      font-family: Roboto, sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;

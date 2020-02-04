@@ -7,7 +7,7 @@ import Prospectives from './pages/Prospectives';
 import Programs from './pages/Programs'; 
 import About from './pages/About'; 
 import Board from './pages/Board';
-import NewHeader from './components/NewHeader/NewHeader'; 
+import NewHeader from './components/Header/Header'; 
 // function AppRouter(){
 //   return(
 //     <Router>
