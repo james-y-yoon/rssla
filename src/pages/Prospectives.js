@@ -47,10 +47,13 @@ function Prospectives() {
 
                 <div class = "body-3-prospectives">
                     <div class = "capital-heading">
-                        DATE AND ITINERARY
+                        DATES AND ITINERARY
                     </div>
                     <div class = "table-prospectives">
-                        <p>OSP DATE: April XX, 2020</p>
+                        <p>OSP Session 1: April XX, 2020</p><br/>
+                        <p>OSP Session 2: April XX, 2020</p><br/>
+                        <p>OSP Session 3: April XX, 2020</p><br/>
+                        <p>OSP Session 4: April XX, 2020</p><br/>
                         <table>
                             <tr>
                                 <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
