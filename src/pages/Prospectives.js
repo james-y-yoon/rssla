@@ -18,11 +18,11 @@ function Prospectives() {
 
             <div class = "freshman-prospectives">
                 <div class = "freshman-transfer-header">
-                    FOR FRESHMAN PROSPECTIVES
+                    <span>FOR FRESHMAN PROSPECTIVES</span>
                 </div>
 
                 <p class = 'body-2-prospectives'>
-                    We'd like to invite you to our overnight stay program! 
+                    We'd like to invite you to our <strong>overnight stay program</strong>! 
                     <br/><br/>
                     OSP, or the overnight stay program, is hosted by the Regents Scholar Society during the first two weekends of April. At our program, you'll be able to: 
                 </p>
@@ -30,7 +30,7 @@ function Prospectives() {
                 <div class = 'body-3-prospectives'>
                     <div class = "blue-padding">
                         <ul>
-                            <li>Meet new people &mdash; some who become close friends!</li>
+                            <li>Meet new people &mdash; some who will become close friends!</li>
                             <li>Explore Westwood &mdash; UCLA's adjacent college town.</li>
                             <li>Have a taste of what it's like to be a bruin &mdash; literally! You'll be eating at UCLA's #1 ranked dining halls.</li>
                             <li>Shadow classes and see what college lectures are like.</li>
@@ -47,34 +47,47 @@ function Prospectives() {
 
                 <div class = "body-3-prospectives">
                     <div class = "capital-heading">
-                        DATES AND ITINERARY
+                        DATES AND ITINERARIES
                     </div>
-                    <div class = "table-prospectives">
-                        <p>OSP Session 1: April XX, 2020</p><br/>
-                        <p>OSP Session 2: April XX, 2020</p><br/>
-                        <p>OSP Session 3: April XX, 2020</p><br/>
-                        <p>OSP Session 4: April XX, 2020</p><br/>
-                        <table>
-                            <tr>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign&nbsp;Up!</button></td>
-                            </tr>
-                            {/* <tr>
-                                <td class = "vertical-line">• OSP Session 2: April</td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign Up!</button></td>
-                            </tr>
-                            <tr>
-                                <td class = "vertical-line">• OSP Session 3: April</td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign Up!</button></td>
-                            </tr>
-                            <tr>
-                                <td class = "vertical-line">• OSP Session 4: April</td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign Up!</button></td>
-                            </tr> */}
-                        </table>
+
+                    <div class = "blue-padding dates-itinerary">
+                        <div><span class = "left-float">OSP Session 1: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/>
+                        <div><span class = "left-float">OSP Session 2: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/>
+                        <div><span class = "left-float">OSP Session 3: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/>
+                        <div><span class = "left-float">OSP Session 4: April XX, 2020</span>
+                            <span class = "nobreak right-float">
+                                <button class = "button-1">Itinerary</button>
+                                <button class = "button-1">Sign&nbsp;Up!</button>
+                                <button class = "button-1">Waiver</button>
+                                <br/>
+                            </span>
+                            <br/>
+                        </div>
+                        <br/><br/><br/>
                     </div>
                     
                 </div>
@@ -84,7 +97,7 @@ function Prospectives() {
 
             <div class = "transfer-prospectives">
                 <div class = "freshman-transfer-header">
-                    FOR TRANSFER PROSPECTIVES
+                    <span>FOR TRANSFER PROSPECTIVES</span>
                 </div>
                 
                 <p class='body-2-prospectives'>
@@ -111,19 +124,17 @@ function Prospectives() {
                     <div class = "capital-heading">
                         MORE INFORMATION
                     </div>
-                    <div class = "table-prospectives">
-                        <table>
-                            <tr>
-                                <td></td>
-                                <td class = "button-wrap"><button class = "button-1">Itinerary</button></td>
-                                <td class = "button-wrap"><button class = "button-1">Sign&nbsp;Up!</button></td>
-                            </tr>
-                        </table>
+                    <div class = "blue-padding">
+                        <span class = "nobreak right-float">
+                            <button class = "button-1">Itinerary</button>
+                            <button class = "button-1">Sign&nbsp;Up!</button>
+                        </span>
+                        <br/><br/>
                     </div>
                 </div>
             </div>
         
-            <div class = "capital-heading2">THE SCHOLARSHIP</div>
+            <div class = "capital-heading2"><span>THE SCHOLARSHIP</span></div>
 
             <div class = "capital-heading3">CLASS ENROLLMENT</div>
 
@@ -136,7 +147,7 @@ function Prospectives() {
 
                 <div class = "mentorship-guarentees">
                     <div class = "mentorship-program">
-                        <div class = "capital-heading4">MENTORSHIP PROGRAM</div>
+                        <div class = "capital-heading4">MENTORSHIP</div>
                         <div class = "m-p-g">
                             <br/>Regents Scholars also have access to the following mentorship programs:
                             <br/><br/>
@@ -149,7 +160,7 @@ function Prospectives() {
                     </div>
 
                     <div class = "guarentees">
-                        <div class = "capital-heading4">GUARENTEES</div>
+                        <div class = "capital-heading4">GUARANTEES</div>
                         <div class = "m-p-g">
                             <br/>Because of the Regents Scholarship, you are guaranteed: 
                             <br/><br/>

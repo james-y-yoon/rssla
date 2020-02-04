@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display'); 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Roboto'); 
 
 * {
     margin: 0px; 
@@ -47,8 +47,8 @@
 }
 
 .freshman-transfer-header {
-    font-family: Overpass Mono;
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
     font-weight: bold;
     font-size: 64px;
     line-height: 98px;
@@ -56,8 +56,12 @@
     color: navy;
 
     /* width: 80%; */
-    padding-top: 5%;
+    padding-top: 15%;
     /* margin: auto; */
+}
+
+.freshman-transfer-header span {
+    background-color: #fdfd96;
 }
 
 .body-2-prospectives {
@@ -71,13 +75,13 @@
     /* margin: auto; */
 
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .body-3-prospectives {
     /* width: 80%; */
     font-family: Source Sans Pro;
-    font-style: italic;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
@@ -99,43 +103,40 @@
     font-style: normal;
     width: 80%;
     padding: 50px; 
-    font-family: Overpass Mono;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
 }
 
-table {
-    margin: auto;
-    border-collapse: collapse;
-    align-self: right;
-    margin-right: 0px;
-}
-
-.table-prospectives {
-    font-style: normal;
-    font-family: Nunito Sans;
-    font-size: 24px;
-    margin: 15px; 
-    padding: 25px; 
-}
-
-.button-wrap {
-    padding-left: 8%;
-    padding-right: 8%;
+.dates-itinerary {
+    overflow: auto;
 }
 
 .button-1 {
     font-family: 'Overpass Mono', sans-serif;
     font-style: SemiBold;
-    background-color: #3C4856; 
-    border-radius: 10px; 
+    background-color: #3C4856;
+    border-radius: 10px;
     border: 1px solid #000000;
-    font-size: 16px; 
-    padding-left: 13px; 
-    padding-right: 13px; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    color: white; 
-    margin-left: auto; 
-    margin-right: auto; 
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 8%;
+    display: inline;
+}
+
+span.nobreak {
+    white-space: nowrap;
+}
+
+span.right-float {
+    margin-right: 8%;
+    float: right;
+}
+
+span.left-float {
+    float: left;
+    margin-left: 5px;
 }
 
 .button-1:hover {
@@ -149,25 +150,29 @@ table {
 }
 
 .capital-heading2 {
-    font-family: Overpass Mono;
-    font-style: normal;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
     font-weight: bold;
     font-size: 64px;
     line-height: 98px;
     text-align: left;
     
-    color: #000000;
+    color: navy;
     
     width: 80%;
     margin: auto;
 
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.capital-heading2 span{
+    background-color: #fdfd96;
 }
 
 .capital-heading3 {
-    font-family: Overpass Mono;
+    font-family: Roboto, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 48px;
     line-height: 74px;
     text-align: center;
@@ -179,7 +184,7 @@ table {
     margin: 3%;
     margin-left: 10%;
 
-    color: #000000;
+    color: #3C507B;
 
     border-bottom: 1px solid black;
 }
@@ -190,7 +195,7 @@ table {
 }
 
 .class-enrollment {
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -204,7 +209,7 @@ table {
 }
 
 .mentorship-guarentees {
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -227,20 +232,20 @@ table {
 }
 
 .capital-heading4 {
-    font-family: Overpass Mono;
+    font-family: Roboto, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 48px;
     line-height: 74px;
     text-align: center;
 
-    color: #000000;
+    color: #3C507B;
 
     border-bottom: 1px solid black;
 }
 
 .m-p-g {
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -250,8 +255,8 @@ table {
 }
 
 .faq {
-    font-family: Source Sans Pro;
-    font-style: italic;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
@@ -267,21 +272,21 @@ table {
 }
 
 .faq-header {
-    font-family: Overpass Mono;
-    font-style: normal;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
     font-weight: bold;
     font-size: 50px;
     line-height: 75px;
     text-align: right;
 
-    color: #000000;
+    color: navy;
 
     padding-right: 3%;
     padding-top: 3%;
 }
 
 .faq-q {
-    font-family: Overpass Mono;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -298,8 +303,8 @@ table {
 }
 
 .faq-a {
-    font-family: Source Sans Pro;
-    font-style: italic;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
