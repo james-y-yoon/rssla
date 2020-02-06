@@ -16,7 +16,7 @@ function Header() {
           <a class='menu-item' href='/programs'>PROGRAMS</a>
           <a class='menu-item' href='/board'>BOARD</a>
           <a class='menu-item' href='/prospectives'>PROSPECTIVES</a>
-          <a class='menu-item'>CONTACT</a>
+          <a class='menu-item' href="mailto:communications@rssla.org">CONTACT</a>
         </div>
       </div>
     </div>
