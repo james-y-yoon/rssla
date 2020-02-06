@@ -16,7 +16,7 @@
   padding-top: 67px;
 
   /* Titles */
-  font-family: Overpass Mono;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -73,8 +73,7 @@
   background-color: #D9E9FF;
   width: 300px;
   height: 583px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: 16px;
 }
 
 .grid-item img {
@@ -94,38 +93,41 @@
   display: flex;
   flex-direction: column;
   width: 288px;
-  height: 120px;
+  height: 100px;
   padding-top: auto;
   padding-bottom: auto;
-  justify-content: center;
+  justify-content: top;
 
-  font-family: Overpass Mono;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 125%;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 150%;
   text-align: center;
   letter-spacing: -0.065em;
 
   /* Text */
-  color: #000000;
+  color: #0B3C5D;
 }
 
 .name {
-  font-family: Libre Baskerville;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 23px;
-  line-height: 30px;
+  font-weight: bolder;
+  font-size: 36px;
+  line-height: 40px;
   text-align: center;
-  padding-top: 70px;
+  vertical-align: top;
+  padding-top: 20px;
 }
 
 .major {
-  font-family: Libre Baskerville;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 30px;
+  font-family: Source Sans Pro, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
+  margin-top: -3%;
+  padding: 1%;
 }

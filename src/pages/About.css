@@ -1,7 +1,7 @@
 *{
     margin: 0px; 
   }
-  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Source+Sans+Pro'); 
+  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Alegreya|Source+Sans+Pro|Roboto'); 
 
   .top-bar{
     background-color: black; 
@@ -40,25 +40,22 @@
   }
   .body-1-title{
     width: 70%; 
-  }
-  .body-1-rssla{
     font-size: 10vw; 
-    font-family: 'Overpass Mono', monospace;
-    margin-left: 15%; 
+    font-family: 'Roboto';
+    margin-left: 6%;
     color: white; 
   }
-  .body-1-rssla-text{
-    margin-left: 15%; 
-    font-family: 'Libre Baskerville', serif;
+  .body-1-{
+    margin-left: 6%; 
+    font-family: 'Alegreya', serif;
     font-weight: lighter; 
-    font-size: 5; 
+    font-size: 2.5vw; 
     color: white; 
   }
-  
   .body-1-text{
-    padding: 20px; 
-    font-family: 'Source Sans Pro', serif;    
-    font-size: 18px; 
+    padding: 10px; 
+    font-family: 'Nunito Sans', serif;    
+    font-size: 2vw; 
     color: white; 
     width: 80%; 
     margin-left: auto; 
@@ -68,7 +65,7 @@
     text-align: center; 
   }
   .body-1-button{
-    font-family: 'Overpass Mono', sans-serif;
+    font-family: 'Roboto';
     background-color: #3C4856; 
     border-radius: 10px; 
     border: 1px solid #000000;
@@ -96,20 +93,20 @@
   }
   
   .body-2-title{
-    font-family: 'Overpass Mono', monospace;
-    font-size: 4.5vw; 
+    font-family: 'Roboto';
+    font-size: 5vw; 
     text-align: left; 
-    width: 50%;
+    width: 100%;
     color: #3C507B; 
-    margin-left: 8vw; 
+    font-style: italic;
+    padding-left: 5%;
+    
   }
   .body-2-text-1{
     font-size: 1.8vw; 
     font-family: 'Source Sans Pro', serif;    
     width: 100%; 
-    padding: 20px; 
-    margin: 20px; 
-    border-left: 2px solid black; 
+    padding: 20px;  
   }
   .body-2-text-2-wrap{
     width: 93%; 
@@ -117,12 +114,9 @@
   .body-2-text-2{
     font-size: 1.8vw; 
     font-family: 'Source Sans Pro', serif;   
-    border-left: 0.5px solid black; 
     text-align: left; 
-    width: 80%; 
+    width: 100%; 
     padding: 5%;  
-    margin: 20px;  
-    margin-left: 20px; 
     color: #0B3C5D; 
   }
   .img-row{
@@ -158,49 +152,54 @@
     flex-direction: column; 
   }
   .body-3-title{
-    font-family: 'Overpass Mono', monospace;
-    font-size: 4vw; 
-    text-align: center; 
-    margin: 10%; 
-    margin-top: auto; 
-    margin-bottom: auto; 
-    margin-left: 5%; 
-    width: 13%; 
-    height: auto; 
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 5vw; 
+    text-align: right; 
+    width: 92%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+    color: #3C507B; 
+    font-style: italic;
   }
   .pillar-wrap{
-    margin-left: 15%;
-    margin-right: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .pillar{
     text-align: center; 
     background-color: #D9E9FF; 
     margin-left: 10%;
+    margin-bottom: 3%;
   }
   .pillar-text-1{
-    font-family: 'Overpass Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
     color: #3C507B; 
     font-size: 3vw; 
-    padding: 2%;
+    padding: 3%;
     padding-top: 5%; 
     text-align: right; 
   }
   .pillar-text-2{
-    font-family: 'Source Sans Pro', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: black; 
     font-size: 1.5vw; 
     text-align: left; 
-    padding: 2%; 
+    padding: 3%; 
   }
   
   .sponsors{ 
-    margin-bottom: 5%; 
-    margin-top: 5%;
+    margin: 5%;
   }
   .sponsors-title{ 
     font-size: 4.5vw; 
     color: #3C507B;
-    font-family: 'Overpass Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
     margin-bottom: 5%;
   }
   .img-sponsor{
@@ -223,18 +222,4 @@
     margin-right: auto;
     padding: 5%;
   }
-  .vertical-text {
-    position: relative;
-    bottom: 50%;
-    font-family: Overpass Mono;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 5vw;
-    line-height: 5vw;
-
-    color: #6C7888;
-    transform: rotate(-90deg) translate(-78%, 0%);
-    transform-origin: left;
-    margin-left: 10%;
-}
   
