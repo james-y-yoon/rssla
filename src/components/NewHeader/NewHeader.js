@@ -1,7 +1,13 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
+<<<<<<< HEAD
+import React, { useState, useEffect } from "./node_modules/react";
+import "./Header.css";
+import { CSSTransition } from "./node_modules/react-transition-group";
+=======
 import React, { useState, useEffect } from "react";
 import "./newHeader.css";
 import CSSTransition from "react-transition-group";
+>>>>>>> 06ad38c7275c4795ba8d494b3582b66166857851
 
 /** 
 export default function NewHeader() {
@@ -32,22 +38,25 @@ export default function NewHeader() {
 
   return (
     <header className="Header">
-      <div className="row-wrap">
-      <img src={require("../Header/nav_bar_logo.png")} className="Logo" alt="logo" />
-        <a class='top-rssla' href='/'> RSSLA </a>
-        </div>
-      
+      <img src={require("../assets/logo.png")} className="Logo" alt="logo" />
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
-        timeout={0}
+        timeout={350}
         classNames="NavAnimation"
         unmountOnExit
       >
         <nav className="Nav">
+<<<<<<< HEAD
+          <a href="/">Home</a>
+          <a href="/">Articles</a>
+          <a href="/">About</a>
+          <button>Logout</button>
+=======
           <a href="/programs">PROGRAMS</a>
           <a href="/board">BOARD</a>
           <a href="/prospectives">PROSPECTIVES</a>
           <a href="/contact">CONTACT</a>
+>>>>>>> 06ad38c7275c4795ba8d494b3582b66166857851
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">
