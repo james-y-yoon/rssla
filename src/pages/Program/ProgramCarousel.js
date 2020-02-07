@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
+import './ProgramCarousel.css'
+
 import pic1 from '../pictures/2019_Conference.jpg';
 import pic2 from '../pictures/banner-bg4.jpg';
 
