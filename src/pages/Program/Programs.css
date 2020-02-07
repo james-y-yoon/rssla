@@ -1,3 +1,8 @@
+#space
+{
+  margin: 20px;
+}
+
 #program-list
 {
   overflow: hidden;
@@ -124,7 +129,9 @@ ul.committee {
   font-size: 24px;
   line-height: 30px;
 
-  margin-left: 20px;
+
+  margin-left: 5%;
+  margin-top: 3%;
   width: 620px;
   height: 390px;
 
@@ -165,7 +172,7 @@ ul.committee {
   background-image: linear-gradient(
       rgba(0,0,0,0.5), 
       rgba(0,0,0,0.5)
-    ), url(../whatwedo-bg.jpeg);
+    ), url(../../whatwedo-bg.jpeg);
     padding-top: 38.2%;
     background-size: cover;
 }
@@ -200,12 +207,14 @@ ul.committee {
   font-weight: bolder;
   font-size: 60px;
   color: navy;
-  padding-left: 100px;
-  padding-top: 100px;
+  text-align: center;
+  padding-top: 5vw;
+
 }
 
 .subheading span{
   background-color: #fdfd96;
+  padding: 2vw;
 }
 
 @media only screen and (max-width: 1400px)  {

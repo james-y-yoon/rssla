@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './Programs.css';
-import LAMP_logo from '../lamp_logo.svg';
-import mentor_pic from '../mentor.png';
-import book_pic from '../book.png';
+import LAMP_logo from '../../lamp_logo.svg';
+import mentor_pic from '../../mentor.png';
+import book_pic from '../../book.png';
+
+import ProgramCarousel from './ProgramCarousel';
+import ProgramNav from './ProgramNav';
+
+
 
 class Programs extends Component {
     constructor(props) {
@@ -23,7 +28,8 @@ class Programs extends Component {
 
     render() {
         return (
-            <div className="Programs">
+            <React.Fragment>
+           
                 <div class='what-do-we-do'>
                     <div class='what-do-we-do-title'>What do we do?</div>
                     <div class='what-do-we-do-body'>
@@ -31,11 +37,18 @@ class Programs extends Component {
                         Some connect our members to resources, while others strive to engage the broader UCLA and local community.
                 </div>
                 </div>
-
+                <ProgramNav/>
+                <div id = "space">Testing</div>
+                <ProgramCarousel/>
                 <div id="program-list">
-                    <div class='subheading'>
-                        <span>INTERNAL PROGRAMS</span>
-                    </div>
+                   
+
+                        <div class='subheading'>
+                            <span>
+                            INTERNAL PROGRAMS
+                            </span>
+                        </div>
+
 
                     <div id="body-container">
 
@@ -86,7 +99,6 @@ class Programs extends Component {
                         </p1>
                         </div>
                     </div>
-
                     <div class='subheading'>
                         <span>EXTERNAL PROGRAMS</span>
                     </div>
@@ -151,7 +163,8 @@ class Programs extends Component {
 
                 </div>
 
-            </div>
+            
+            </React.Fragment>
         );
     }
 
