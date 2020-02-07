@@ -22,8 +22,12 @@ function Board(){
     return([
       <div>
         <div className="banner">
-          <p id="heading">2019-2020 Executive Board</p>
-          <p id="description">16 students in 15 positions lead the Regents Scholar Society and all of its programs. From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively.</p>
+          <div id="heading">
+            <p>2019-2020 Executive Board</p>
+          </div>
+          <div id="description">
+            <p>16 students in 15 positions lead the Regents Scholar Society and all of its programs. From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively.</p>
+          </div>
         </div>
         <div className="grid-container">
           <div className="grid-row1">
