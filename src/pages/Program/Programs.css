@@ -1,3 +1,8 @@
+#space
+{
+  margin: 20px;
+}
+
 #program-list
 {
   overflow: hidden;
@@ -10,11 +15,10 @@
 
 #body-container
 {
-
   padding: 25px;
   
   width: 75%;
-  height: 600px;
+  height: 750px;
 
   margin-left: 8%;
   margin-top: 8%;
@@ -28,7 +32,7 @@
   padding: 25px;
   
   width: 75%;
-  height: 1330px;
+  height: auto;
 
   margin-left: 8%;
   margin-top: 8%;
@@ -58,14 +62,32 @@ ul.committee {
   font-family: Source Sans Pro;
   font-style: italic;
   font-weight: normal;
-  font-size: 24px;
-
-
   color: #000000;
+
   padding-left: 60px;
 
-  line-height: 100px;
+  font-size: 2.4vw;
+  line-height: 1.8em;
 }
+
+#text-committee
+{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 90%;
+  height: 10%;
+
+  color: #000000;
+}
+
 
 #title
 {
@@ -89,7 +111,7 @@ ul.committee {
 #left {
   float: left;
   margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 7%;
   clear:both;
 }
 
@@ -98,6 +120,9 @@ ul.committee {
   float: right;
   clear: both;
 }
+
+
+
 
 #text-LAMP
 {
@@ -113,6 +138,7 @@ ul.committee {
   margin-left: 30%;
   margin-top: 5%;
 
+
   color: #000000;
 }
 
@@ -124,8 +150,10 @@ ul.committee {
   font-size: 24px;
   line-height: 30px;
 
-  margin-left: 20px;
-  width: 620px;
+
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 90%;
   height: 390px;
 
   color: #000000;
@@ -138,10 +166,9 @@ ul.committee {
   font-weight: normal;
   font-size: 24px;
   line-height: 30px;
-
-  margin-left: 800px;
+  height: auto;
+  margin-left: 70%;
   width: 255px;
-  height: 346px;
   
   color: #000000;
 }
@@ -165,7 +192,7 @@ ul.committee {
   background-image: linear-gradient(
       rgba(0,0,0,0.5), 
       rgba(0,0,0,0.5)
-    ), url(../whatwedo-bg.jpeg);
+    ), url(./dependent/whatwedo-bg.jpeg);
     padding-top: 38.2%;
     background-size: cover;
 }
@@ -200,15 +227,61 @@ ul.committee {
   font-weight: bolder;
   font-size: 60px;
   color: navy;
-  padding-left: 100px;
-  padding-top: 100px;
+  text-align: center;
+  padding: 5vw;
+
 }
 
 .subheading span{
   background-color: #fdfd96;
+  padding: 2vw;
 }
 
-@media only screen and (max-width: 1400px)  {
+.service_img_big 
+{
+  float: left;
+  margin-left: 5%;
+  width: 50%;
+  height: auto;
+
+  clear:both;
+}
+
+.service_img_small
+{
+  display: none;
+}
+
+.committee_pic
+{
+  display: none;
+}
+
+@media only screen and (max-width: 1420px)  {
+    /* .committee_pic
+  {
+    display: block;
+    float: top;
+    margin-left: 10px;
+    width: 200vw;
+  } */
+
+
+  .service_img_small
+  {
+    display: inline-block;
+    border-radius: 5px;
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+  }
+  .service_img_big
+  {
+    display: none
+  }
+  
     .what-do-we-do-title {
       font-size: 43px;
     }
@@ -262,27 +335,13 @@ ul.committee {
 
   } 
 
-  #text-SPIEL
-{
-  font-size: 24px;
-  line-height: 30px;
-
-  width: 90%;
-  height: 390px;
-
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
 #text-SERVICE
 {
   font-size: 24px;
   line-height: 30px;
 
   width: 90%;
-  height: 390px;
-
+  height: auto;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -303,17 +362,24 @@ ul.committee {
 
 }
 
-@media only screen and (max-width: 753px)
+
+@media only screen and (max-width: 820px)
 {
+  #body-container
+  {
+    height: 80vw;
+  }
+
   #title
   {
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1.5em;
+
   }
   #text-LAMP
   {
 
-    font-size: 3.3vw;
+    font-size: 3vw;
     line-height: 1.2em;
 
     width: 90%;
@@ -326,7 +392,7 @@ ul.committee {
   #text-SPIEL
   {
 
-    font-size: 3.3vw;
+    font-size: 3vw;
     line-height: 1.2em;
 
     width: 90%;
@@ -344,8 +410,7 @@ ul.committee {
     line-height: 1.2em;
 
     width: 90%;
-    height: 390px;
-
+    height: auto;
     margin-left: 5%;
     margin-right: 5%;
 
@@ -364,6 +429,7 @@ ul.committee {
     margin-right: 5%;
 
   }
+
   
 }
 

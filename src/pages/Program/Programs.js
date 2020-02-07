@@ -1,8 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './Programs.css';
-import LAMP_logo from '../lamp_logo.svg';
-import mentor_pic from '../mentor.png';
-import book_pic from '../book.png';
+import LAMP_logo from './dependent/lamp_logo.svg';
+import mentor_pic from './dependent/mentor.png';
+import book_pic from './dependent/book.png';
+import SPIEL_pic from './dependent/SPIEL.jpg'
+import ucla from './dependent/ucla.png';
+
+import committee_pic from './dependent/committee_pic.png';
+
+import meals_on_wheels from './dependent/meals_on_wheels_LA.jpg';
+import heal_the_bay from './dependent/healthebay.png';
+
+
+import ProgramCarousel from './ProgramCarousel';
 
 class Programs extends Component {
     constructor(props) {
@@ -23,7 +33,8 @@ class Programs extends Component {
 
     render() {
         return (
-            <div className="Programs">
+            <React.Fragment>
+           
                 <div class='what-do-we-do'>
                     <div class='what-do-we-do-title'>What do we do?</div>
                     <div class='what-do-we-do-body'>
@@ -31,11 +42,17 @@ class Programs extends Component {
                         Some connect our members to resources, while others strive to engage the broader UCLA and local community.
                 </div>
                 </div>
-
+                
                 <div id="program-list">
-                    <div class='subheading'>
-                        <span>INTERNAL PROGRAMS</span>
-                    </div>
+                   
+
+                        <div class='subheading'>
+                            <span>
+                            INTERNAL PROGRAMS
+                            </span>
+                        </div>
+
+                        <ProgramCarousel/>
 
                     <div id="body-container">
 
@@ -55,8 +72,9 @@ class Programs extends Component {
                                 Students interested in tutoring and volunteering through LAMP are not required
                                 nor expected to have previous experience, although strong interpersonal and communication skills are required
                                 to succeed in the role.
-                        </p1>
+                            </p1>
                         </div>
+                        
 
                     </div>
                     <div id="body-container">
@@ -79,14 +97,18 @@ class Programs extends Component {
                         <div id="title">
                             Service
                     </div>
+                    
+                        <img className="service_img_big" src={ucla} width="350" height="350" />
                         <div id="text-SERVICE">
                             <p1>
                                 Through partnerships with Heal the Bay and Meals on Wheels, the Regents Scholar Society hosts periodic service events throughout the year.
                                 Stay tuned on our Facebook group to get involved!
-                        </p1>
+                            </p1> 
                         </div>
-                    </div>
+                        <img className="service_img_small" src={heal_the_bay} width="350" height="350" />
+                        <img className="service_img_small" src={meals_on_wheels} width="350" height="350" />   
 
+                    </div>
                     <div class='subheading'>
                         <span>EXTERNAL PROGRAMS</span>
                     </div>
@@ -126,7 +148,7 @@ class Programs extends Component {
                         <div id="title">
                             Committees
                     </div>
-                        <div id="text-SPIEL">
+                        <div id="text-committee">
                             <p1>
                                 Through our committees, you can engage with the society, develop leadership skills, and utilize all of our resources! Applications open every fall quarter.
                         </p1>
@@ -135,7 +157,7 @@ class Programs extends Component {
                         <div id="committee">
                             <div id="title">
                                 2019-2020 Committees
-                        </div>
+                            </div>
                             <div id="committee-text">
                                 <ul class="committee">
                                     <li>A.C.E. (Activity, Community Service, Education Program</li>
@@ -144,14 +166,18 @@ class Programs extends Component {
                                     <li>Website</li>
                                     <li>Los Angeles Mentorship Program (LAMP)</li>
                                 </ul>
+                                    {/* <img className="committee_pic" src={ committee_pic} width="350" height="350" /> */}
+
                             </div>
+
                         </div>
 
                     </div>
 
                 </div>
 
-            </div>
+            
+            </React.Fragment>
         );
     }
 
