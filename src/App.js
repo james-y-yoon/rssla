@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header/Header'; 
 import Footer from './components/Footer/Footer';
 import Prospectives from './pages/Prospectives';  
-import Programs from './pages/Programs'; 
+import Programs from './pages/Program/Programs'; 
 import About from './pages/About'; 
 import Board from './pages/Board';
 import NewHeader from './components/Header/Header'; 

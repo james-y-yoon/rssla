@@ -5,7 +5,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import AppRouter from './App';
 import Board from "./pages/Board";
-import Programs from "./pages/Programs";
+import Programs from "./pages/Program/Programs";
 import Prospectives from "./pages/Prospectives";
 
 // const routing = (
