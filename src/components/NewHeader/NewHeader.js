@@ -32,14 +32,10 @@ export default function NewHeader() {
 
   return (
     <header className="Header">
-      <div className="row-wrap">
-      <img src={require("../Header/nav_bar_logo.png")} className="Logo" alt="logo" />
-        <a class='top-rssla' href='/'> RSSLA </a>
-        </div>
-      
+      <img src={require("../assets/logo.png")} className="Logo" alt="logo" />
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
-        timeout={0}
+        timeout={350}
         classNames="NavAnimation"
         unmountOnExit
       >
