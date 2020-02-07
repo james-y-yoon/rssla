@@ -15,7 +15,6 @@
 
 #body-container
 {
-
   padding: 25px;
   
   width: 75%;
@@ -94,7 +93,7 @@ ul.committee {
 #left {
   float: left;
   margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 7%;
   clear:both;
 }
 
@@ -118,6 +117,7 @@ ul.committee {
   margin-left: 30%;
   margin-top: 5%;
 
+
   color: #000000;
 }
 
@@ -132,7 +132,7 @@ ul.committee {
 
   margin-left: 5%;
   margin-top: 3%;
-  width: 620px;
+  width: 90%;
   height: 390px;
 
   color: #000000;
@@ -172,7 +172,7 @@ ul.committee {
   background-image: linear-gradient(
       rgba(0,0,0,0.5), 
       rgba(0,0,0,0.5)
-    ), url(../../whatwedo-bg.jpeg);
+    ), url(./dependent/whatwedo-bg.jpeg);
     padding-top: 38.2%;
     background-size: cover;
 }
@@ -208,7 +208,7 @@ ul.committee {
   font-size: 60px;
   color: navy;
   text-align: center;
-  padding-top: 5vw;
+  padding: 5vw;
 
 }
 
@@ -217,7 +217,7 @@ ul.committee {
   padding: 2vw;
 }
 
-@media only screen and (max-width: 1400px)  {
+@media only screen and (max-width: 1420px)  {
     .what-do-we-do-title {
       font-size: 43px;
     }
@@ -271,19 +271,6 @@ ul.committee {
 
   } 
 
-  #text-SPIEL
-{
-  font-size: 24px;
-  line-height: 30px;
-
-  width: 90%;
-  height: 390px;
-
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
 #text-SERVICE
 {
   font-size: 24px;
@@ -312,12 +299,43 @@ ul.committee {
 
 }
 
-@media only screen and (max-width: 753px)
+@media only screen and (max-width: 845px)
+{
+    #text-SPIEL
+  {
+    font-size: 2.5vw;
+
+    width: 90%;
+    height: 390px;
+
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px)
+{
+    #text-SPIEL
+  {
+    font-size: 50px;
+
+    width: 90%;
+    height: 390px;
+
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px)
 {
   #title
   {
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1.5em;
+
   }
   #text-LAMP
   {
@@ -335,7 +353,7 @@ ul.committee {
   #text-SPIEL
   {
 
-    font-size: 3.3vw;
+    font-size: 3vw;
     line-height: 1.2em;
 
     width: 90%;

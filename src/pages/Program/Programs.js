@@ -1,8 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import './Programs.css';
-import LAMP_logo from '../../lamp_logo.svg';
-import mentor_pic from '../../mentor.png';
-import book_pic from '../../book.png';
+import LAMP_logo from './dependent/lamp_logo.svg';
+import mentor_pic from './dependent/mentor.png';
+import book_pic from './dependent/book.png';
+import SPIEL_pic from './dependent/SPIEL.jpg'
 
 import ProgramCarousel from './ProgramCarousel';
 import ProgramNav from './ProgramNav';
@@ -37,9 +38,8 @@ class Programs extends Component {
                         Some connect our members to resources, while others strive to engage the broader UCLA and local community.
                 </div>
                 </div>
-                <ProgramNav/>
-                <div id = "space">Testing</div>
-                <ProgramCarousel/>
+                {/* <ProgramNav/> */}
+                
                 <div id="program-list">
                    
 
@@ -49,6 +49,7 @@ class Programs extends Component {
                             </span>
                         </div>
 
+                        <ProgramCarousel/>
 
                     <div id="body-container">
 

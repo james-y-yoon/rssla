@@ -4,8 +4,9 @@ import {
     MainButton,
     ChildButton,
   } from 'react-floating-button-menu';
-  import MdAdd from '@material-ui/icons/add';
-  import MdClose from '@material-ui/icons/clear';
+  import MdAdd from '@material-ui/icons/Add.js';
+  import MdClose from '@material-ui/icons/Clear.js';
+  import MdFavorite from '@material-ui/icons/Check.js';
    
    
   class ProgramNav extends Component {

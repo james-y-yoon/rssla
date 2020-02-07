@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://chelseyywang.github.io/rssla/",
   "dependencies": {
+    "@material-ui/core": "^4.9.1",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -17,7 +19,9 @@
     "react-responsive-carousel": "^3.1.51",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
-    "react-transition-group": "^4.3.0"
+    "react-scroll-parallax": "^2.3.1",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
