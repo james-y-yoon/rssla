@@ -21,12 +21,12 @@ import Raymond from './../eboard-pictures/Raymond.jpeg';
 function Board(){
     return([
       <div>
-        <div className="banner">
+        <div className="col">
           <p id="heading">2019-2020 Executive Board</p>
           <p id="description">16 students in 15 positions lead the Regents Scholar Society and all of its programs. From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively.</p>
         </div>
         <div className="grid-container">
-          <div className="grid-row1">
+          <div className="row">
             <div className="grid-item">
               <img src={Krista}/>
               <p className="name">KRISTA YANG</p>
@@ -38,7 +38,7 @@ function Board(){
               <p className="name">KAJAL MARAN</p>
               <p className="major">Bioengineering, 2020</p>
               <p className="title">internal vice president</p>
-              
+
             </div>
             <div className="grid-item">
               <img src={Alex}/>
@@ -53,7 +53,7 @@ function Board(){
               <p className="title">secretary</p>
             </div>
           </div>
-          <div className="grid-row2">
+          <div className="row">
             <div className="grid-item">
               <img src={Chelsey}/>
               <p className="name">CHELSEY WANG</p>
@@ -79,7 +79,7 @@ function Board(){
               <p className="title">communications director</p>
             </div>
           </div>
-          <div className="grid-row3">
+          <div className="row">
             <div className="grid-item">
               <img src={Andrew}/>
               <p className="name">ANDREW KANG</p>
@@ -105,34 +105,34 @@ function Board(){
               <p className="title">L.A.M.P. director</p>
             </div>
           </div>
-          <div className="grid-row4">
+          <div className="row">
             <div className="grid-item">
               <img src={Becca}/>
               <p className="name">REBECCA ZHU</p>
               <p className="major">Business Economics and Linguistics & CS, 2020</p>
               <p className="title">outreach director</p>
-              
+
             </div>
             <div className="grid-item">
               <img src={Nikki}/>
               <p className="name">NIKKI WOO</p>
               <p className="major">Computer Science, 2021</p>
               <p className="title">publicity director</p>
-              
+
             </div>
             <div className="grid-item">
               <img src={Raymond}/>
               <p className="name">RAYMOND DEANGELO</p>
               <p className="major">English, 2020</p>
               <p className="title">transfer affairs director</p>
-              
+
             </div>
             <div className="grid-item">
               <img src={Jason}/>
               <p className="name">JASON LIU</p>
               <p className="major">Neuroscience, 2020</p>
               <p className="title">treasurer</p>
-              
+
             </div>
           </div>
         </div>

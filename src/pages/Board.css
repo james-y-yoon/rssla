@@ -1,10 +1,10 @@
-.banner {
+.col {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
   align-items: flex-start;
-  height: 361px;
-  padding-left: 312px;
+  height: 100%;
+  padding: 5%;
 
   background-image: url(./pictures/board_bg1.png);
   background-size: cover;
@@ -12,8 +12,8 @@
 
 #heading {
   /* 2019-2020 Executive Board */
-  height: 100px;
-  padding-top: 67px;
+  height: 50%;
+  padding-bottom: 2%;
 
   /* Titles */
   font-family: Roboto, sans-serif;
@@ -32,7 +32,7 @@
 #description {
   /* 16 students in 15 positions lead the Regents Scholar Society and all of its programs. From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively. */
 
-  width: 1187px;
+  width: 100%;
 
   /* Body Text */
   font-family: Source Sans Pro;
@@ -46,8 +46,8 @@
   color: #D9E9FF;
 
   /* Adding the left line */
-  padding-left: 43px;
   border-left: 1px solid #D9E9FF;
+  padding-left: 3%;
 }
 
 .grid-container {
@@ -60,10 +60,11 @@
   justify-content: center;
 }
 
-.grid-row1, .grid-row2, .grid-row3, .grid-row4 {
+.row {
   display: flex;
   flex-direction: row;
   align-self: center;
+  align-items: center;
   justify-content: center;
 }
 
