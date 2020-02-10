@@ -1,7 +1,9 @@
+/**
+
 *{
   margin: 0px; 
 }
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display'); 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Source+Sans+Pro'); 
 
 .top-bar{
   background-color: black; 
@@ -19,6 +21,7 @@
 }
 .menu{
   display: flex; 
+  font-weight: bold;
   flex-direction: row; 
   color: #F2FAFF; 
   width: 60%; 
@@ -34,6 +37,7 @@
 }
 .body-1{
   /* background-color: #F2FAFF;  */
+  /**
   padding: 20px; 
   padding-top: 100px; 
   padding-bottom: 250px; 
@@ -46,28 +50,19 @@
 }
 .body-1-title{
   width: 70%; 
-  /* background-color: #0B3C5D;   */
-  /* margin-left: auto; 
-  margin-right: auto;  */
 }
 .body-1-rssla{
-  font-size: 100px; 
-  /* color: #F2FAFF;  */
+  font-size: 5vw; 
   font-family: 'Overpass Mono', monospace;
   margin-left: 15%; 
   color: white; 
-  /* text-align: center;  */
 }
 .body-1-rssla-text{
-  /* color: #F2FAFF; */
-  /* text-align: center;  */
   margin-left: 15%; 
   font-family: 'Libre Baskerville', serif;
   font-weight: lighter; 
-  font-size: 30px; 
+  font-size: 3vw; 
   color: white; 
-  /* border-bottom: 1px solid #000000;  */
-  /* padding: 10px;  */
 }
 
 .body-1-text{
@@ -75,7 +70,6 @@
   font-family: 'Libre Baskerville', serif;    
   font-size: 18px; 
   color: white; 
-  /* text-align: center;  */
   width: 80%; 
   margin-left: auto; 
   margin-right: auto; 
@@ -103,25 +97,21 @@
   cursor: pointer;
 }
 .body-2{
-  /* background-color: #0B3C5D;  */
   padding: 20px; 
   margin-top: 50px; 
   margin-bottom: 50px; 
 }
-.body-2-title-wrap{
-  padding: 20px; 
-}
+
 .body-2-title{
   font-family: 'Overpass Mono', monospace;
-  font-size: 260%; 
+  font-size: 4.5vw; 
   text-align: center; 
-  /* color: #F2FAFF; */
-  /* background-color: #3C4856;  */
   width: 45%;
-  /* box-shadow: 10px 13px #FFEDCB; */
+  color: #3C507B; 
+  margin-left: 8vw; 
 }
 .body-2-text-1{
-  font-size: 20px; 
+  font-size: 1.8vw; 
   font-family: 'Libre Baskerville', serif;    
   width: 80%; 
   padding: 20px; 
@@ -131,18 +121,7 @@
 .body-2-text-2-wrap{
   width: 93%; 
 }
-.body-2-text-2{
-  font-size: 16px; 
-  font-family: 'Libre Baskerville', serif;   
-  border-left: 1px solid black; 
-  text-align: left; 
-  width: 80%; 
-  padding: 20px; 
-  padding-left: 30px;  
-  margin: 20px;  
-  margin-left: 13%; 
-  color: #0B3C5D; 
-}
+
 .img-row{
   display: flex; 
   flex-direction: row; 
@@ -166,7 +145,6 @@
   padding: 20px; 
   margin-top: 50px; 
   margin-bottom: 50px; 
-  /* background-color: #F2FAFF; */
 }
 .body-3-wrap{
   display: flex; 
@@ -174,7 +152,7 @@
 }
 .body-3-title{
   font-family: 'Overpass Mono', monospace;
-  font-size: 260%; 
+  font-size: 4.5vw; 
   text-align: center; 
   margin: 10px; 
   margin-top: auto; 
@@ -182,59 +160,43 @@
   margin-left: 5%; 
   width: 13%; 
   height: auto; 
-  /* color: #F2FAFF; */
-  /* background-color: #3C4856;  */
-  /* width: 45%; */
-  /* box-shadow: 10px 13px #009AFA; */
 }
-/* .pillar-wrap{
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-evenly; 
-} */
+.pillar-wrap{
+  margin: 20px; 
+  margin-right: 10vw; 
+}
 .pillar{
-  /* width: 25%;  */
   text-align: center; 
   background-color: #D9E9FF; 
   margin: 15px; 
 }
 .pillar-text-1{
-  font-family: 'Libre Baskerville', serif;
-  color: black; 
+  font-family: 'Overpass Mono', monospace;
+  color: #3C507B; 
   font-size: 30px; 
   padding: 20px; 
   padding-top: 30px; 
   text-align: right; 
 }
 .pillar-text-2{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Source Sans Pro', serif;
   color: black; 
   font-size: 18px; 
   text-align: right; 
   padding: 20px; 
 }
-.pillar-text-3{
-  font-family: 'Nunito Sans', sans-serif;
-  color: white; 
-  font-size: 18px; 
-  padding: 15px; 
-}
-
 
 .sponsors{
   margin-top: 50px; 
   margin-bottom: 50px; 
-  /* background-color: #A0ACBD;  */
   padding: 20px; 
 }
 .sponsors-title{
-  /* background-color: #3C4856;  */
-  /* color: white;  */
   width: 30%; 
-  font-size: 260%; 
+  font-size: 4.5vw; 
   text-align: left; 
   font-family: 'Overpass Mono', monospace;
-  margin-left: 10px; 
+  margin-left: 8vw; 
 }
 .sponsor-1-wrap{
   border-left: 1px solid black; 
@@ -251,3 +213,4 @@
   font-family: 'Overpass Mono', monospace;
   text-align: center; 
 }
+*/

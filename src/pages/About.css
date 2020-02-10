@@ -1,0 +1,225 @@
+*{
+    margin: 0px; 
+  }
+  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Alegreya|Source+Sans+Pro|Roboto'); 
+
+  .top-bar{
+    background-color: black; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-family: 'Playfair Display', monospace;
+  
+  }
+  .menu{
+    display: flex; 
+    flex-direction: row; 
+    color: #F2FAFF; 
+    width: 60%; 
+    justify-content: space-around; 
+    font-size: 18px; 
+    margin-top: auto;
+    margin-bottom: auto; 
+  }
+  .menu-item:hover{
+    color:white; 
+    text-decoration: underline; 
+    cursor: pointer;
+  }
+  .body-1{
+    /* background-color: #F2FAFF;  */
+    padding: 20px; 
+    padding-top: 100px; 
+    padding-bottom: 250px; 
+    background-color: rgba(0,0,0,0.7); 
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7), 
+        rgba(0,0,0,0.7)
+      ), url('./pictures/2018_InterUC.HEIC');
+    background-size: cover;  
+  }
+  .body-1-title{
+    width: 70%; 
+    font-size: 10vw; 
+    font-family: 'Roboto';
+    margin-left: 6%;
+    color: white; 
+  }
+  .body-1-{
+    margin-left: 6%; 
+    font-family: 'Alegreya', serif;
+    font-weight: lighter; 
+    font-size: 2.5vw; 
+    color: white; 
+  }
+  .body-1-text{
+    padding: 10px; 
+    font-family: 'Nunito Sans', serif;    
+    font-size: 2vw; 
+    color: white; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  .button-wrap{
+    text-align: center; 
+  }
+  .body-1-button{
+    font-family: 'Roboto';
+    background-color: #3C4856; 
+    border-radius: 10px; 
+    border: 1px solid #000000;
+    font-size: 16px; 
+    padding-left: 3%; 
+    padding-right: 3%; 
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    color: white; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  .body-1-button:hover{
+    opacity: 0.6;
+  }
+  
+  .body-1-button:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+  }
+  .body-2{
+    padding: 20px; 
+    margin-top: 150px; 
+    margin-bottom: 150px; 
+  }
+  
+  .body-2-title{
+    font-family: 'Roboto';
+    font-size: 5vw; 
+    text-align: left; 
+    width: 100%;
+    color: #3C507B; 
+    font-style: italic;
+    padding-left: 5%;
+    
+  }
+  .body-2-text-1{
+    font-size: 1.8vw; 
+    font-family: 'Source Sans Pro', serif;    
+    width: 100%; 
+    padding: 20px;  
+  }
+  .body-2-text-2-wrap{
+    width: 93%; 
+  }
+  .body-2-text-2{
+    font-size: 1.8vw; 
+    font-family: 'Source Sans Pro', serif;   
+    text-align: left; 
+    width: 100%; 
+    padding: 5%;  
+    color: #0B3C5D; 
+  }
+  .img-row{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: auto;
+    background-color:  #D9E9FF;
+  }
+
+  .img-column{
+    flex: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+  }
+  
+  .img-1{
+    width: 90%; 
+    height: auto;
+    border: 0.1vw solid black;
+  }
+  .img-2{
+    width: 83%; 
+    height: auto; 
+    border: 0.1vw solid black;
+  }
+  
+  .body-3{
+    margin-bottom: 10%; 
+  }
+  .body-3-wrap{
+    display: flex; 
+    flex-direction: column; 
+  }
+  .body-3-title{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 5vw; 
+    text-align: right; 
+    width: 92%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+    color: #3C507B; 
+    font-style: italic;
+  }
+  .pillar-wrap{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .pillar{
+    text-align: center; 
+    background-color: #D9E9FF; 
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+  .pillar-text-1{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #3C507B; 
+    font-size: 3vw; 
+    padding: 3%;
+    padding-top: 5%; 
+    text-align: right; 
+  }
+  .pillar-text-2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black; 
+    font-size: 1.5vw; 
+    text-align: left; 
+    padding: 3%; 
+  }
+  
+  .sponsors{ 
+    margin: 5%;
+  }
+  .sponsors-title{ 
+    font-size: 4.5vw; 
+    color: #3C507B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+  .img-sponsor{
+    width: 40%; 
+    height: auto; 
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: auto;
+    vertical-align: middle;
+  }
+  .sponsor-row{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: auto;
+    background-color:  #D9E9FF;
+  }
+  .sponsor-column{
+    flex: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+  }
+  

@@ -1,0 +1,134 @@
+.col {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: flex-start;
+  height: 100%;
+  padding: 5%;
+
+  background-image: url(./pictures/board_bg1.png);
+  background-size: cover;
+}
+
+#heading {
+  /* 2019-2020 Executive Board */
+  height: 50%;
+  padding-bottom: 2%;
+
+  /* Titles */
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 98px;
+
+  /* identical to box height */
+  align-items: center;
+
+  /* Background */
+  color: #FFFFFF;
+}
+
+#description {
+  /* 16 students in 15 positions lead the Regents Scholar Society and all of its programs. From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively. */
+
+  width: 100%;
+
+  /* Body Text */
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  align-items: center;
+
+  /* background */
+  color: #D9E9FF;
+
+  /* Adding the left line */
+  border-left: 1px solid #D9E9FF;
+  padding-left: 3%;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 31px;
+  grid-column-gap: 29px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #D9E9FF;
+  width: 300px;
+  height: 583px;
+  margin: 16px;
+}
+
+.grid-item img {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 288px;
+  width: 273px;
+  /* left: 4.32%;
+  right: 4.32%; */
+  /* top: 3.31%;
+  bottom: 49.91%; */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 100px;
+  padding-top: auto;
+  padding-bottom: auto;
+  justify-content: top;
+
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.065em;
+
+  /* Text */
+  color: #0B3C5D;
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.major {
+  font-family: Source Sans Pro, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: -3%;
+  padding: 1%;
+}
